@@ -304,25 +304,45 @@
 
   /* ---------- prose sections ---------- */
 
-  .dossier p {
-    font-size: 16px;
-    line-height: 1.75;
-    color: var(--text);
-    opacity: 0.9;
+  .dossier h2:first-child { margin-top: 0; }
+
+  .dossier ul {
+    list-style: none;
     max-width: 760px;
     margin-bottom: 14px;
+    padding-left: 0;
   }
 
-  .dossier .spoiler {
-    background: var(--text);
-    color: var(--text);
-    cursor: pointer;
-    transition: color 0.15s;
+  .dossier li {
+    font-size: 16px;
+    line-height: 1.7;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+    opacity: 0.9;
   }
 
-  .dossier .spoiler:hover { color: var(--bg); }
+  .dossier li::before {
+    content: '\f0da';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: var(--charcolor);
+    font-size: 12px;
+  }
 
-  /* vice / weapon */
+  .dossier strong,
+  .dossier b {
+    color: var(--charcolor);
+    font-weight: 700;
+  }
+
+  .dossier a {
+    color: var(--charcolor);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 
   .vice-section {
     margin-top: 20px;
@@ -696,3 +716,4 @@
     grid-template-columns: repeat(auto-fit, minmax(70px, 100px));
     gap: 10px;
   }
+}

@@ -3,22 +3,16 @@ layout: layouts/base.njk
 title: "Home"
 bgImage: "/im/image.png"
 extraJs: "/js/player.js"
-
-updates:
-  - tag: "8.13.26"
-    text: "Update Text lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum."
-  - tag: "// FIELD NOTE"
-    text: "Zone boundaries were redrawn after the collapse. Some maps still show the old lines. Trust the signage over the archive &mdash; the archive hasn't been right in years."
-  - tag: "// FIELD NOTE"
-    text: "Allegiance records are self-reported. No one has verified them since Yr.083. Read the character files as claims, not facts."
 ---
 <div class="field-note">
   <div class="fn-track">
-    {% for entry in updates %}
+    {% for entry in collections.updates %}
+    {% if loop.index <= 5 %}
     <div class="fn-entry">
-      <span class="fn-tag">{{ entry.tag }}</span>
-      <p>{{ entry.text | safe }}</p>
+      <span class="fn-tag">{{ entry.data.tag or (entry.date | shortDate) }}</span>
+      {{ entry.templateContent | safe }}
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </div>

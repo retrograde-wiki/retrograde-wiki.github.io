@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/themes.css">
-  <link rel="stylesheet" href="/css/characters.css">
+  <link rel="stylesheet" href="/css/lore.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="icon" href="https://file.garden/aBb6prPw8QkQxICV/website/placeholder/Logo" />
 
-  <title>Characters — RETROGRADE</title>
+  <title>ARTICLE TITLE — RETROGRADE</title>
 
   
 </head>
@@ -83,42 +83,34 @@
     </nav>
   </header>
 
-  <main class="char-select">
+  <article class="lore-article">
+  <h1 class="lore-title">ARTICLE TITLE</h1>
+  
+  <p class="lore-meta">history · other tag</p>
+  
 
-  <div class="char-gallery-col">
-    <div class="char-gallery-head">
-      <span class="cg-eyebrow">Select your</span>
-      <h2 class="cg-title">Character</h2>
-    </div>
-    <div class="char-gallery" id="charGallery"></div>
-  </div>
+  <p>This is a lore article. Write everything in here as <strong>Markdown</strong>.</p>
+<h2>What happened</h2>
+<p>Regular paragraph text goes here. Multiple paragraphs, <a href="/lore/other-entry/">links to other lore pages</a>, and lists all work:</p>
+<ul>
+<li>First point</li>
+<li>Second point</li>
+<li>Third point</li>
+</ul>
+<p>A plain image, centered and scaled to fit the column:</p>
+<p><img src="/im/lore/collapse-01.png" alt="Describe the image here for screen readers"></p>
+<h2>With a caption</h2>
+<p>If you want a caption under an image, drop in this small snippet of raw HTML — Markdown files can include HTML directly, so this still lives in the same file:</p>
+<figure>
+  <img src="/im/lore/temp.png" alt="Describe the image here for screen readers">
+  <figcaption>Optional caption text goes here.</figcaption>
+</figure>
+<h2>A note on tone</h2>
+<blockquote>
+<p>Blockquotes work too, if you want to set apart a quote or excerpt.</p>
+</blockquote>
 
-  <div class="char-hero">
-    <div class="char-hero-frame">
-      <img id="charImg" class="char-hero-img" src="" alt="">
-      <div class="char-hero-label">
-        <h2 id="charName" class="char-hero-name">&mdash;</h2>
-        <p id="charDesc" class="char-hero-desc"></p>
-      </div>
-    </div>
-  </div>
-
-</main>
-
-<script>
-  const characters = [
-    
-    {
-      name: "Character Name",
-      desc: "A little blurb about who they are baalabablaalba.",
-      thumb: "/im/thumbs/placeholder.png",
-      image: "/im/full/placeholder.png",
-      page: "/characters/example-character/",
-      color: "#8a8a86"
-    }
-    
-  ];
-</script>
+</article>
 
 
   <footer>
@@ -136,6 +128,6 @@
     }
   </script>
 
-  <script src="/js/characters.js"></script>
+  
 </body>
 </html>

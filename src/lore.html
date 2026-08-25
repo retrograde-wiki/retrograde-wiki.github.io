@@ -1,5 +1,15 @@
 ---
 layout: layouts/base.njk
 title: "Lore"
+extraCss: /css/lore.css
 ---
-<p style="padding: 40px;">Work in progress.</p>
+<main class="lore-index">
+  <span class="cg-eyebrow">Archive</span>
+  <h2 class="cg-title">Lore</h2>
+
+  <ul class="wiki-list">
+    {% for page in collections.lore %}
+    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</main>

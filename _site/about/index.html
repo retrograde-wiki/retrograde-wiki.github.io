@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script>
+      (function() {
+        var saved = localStorage.getItem('theme') || 'dark-1';
+        document.documentElement.setAttribute('data-theme', saved);
+      })();
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/themes.css">
   
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,8 +58,13 @@
   </div>
 
   <header>
-    <div class="header-title">
-      <a href="/">RETROGRADE</a>
+    <div class="theme-select">
+      <select id="themeSelect" aria-label="Theme">
+        <option value="dark-1">Dark 1</option>
+        <option value="dark-2">Dark 2</option>
+        <option value="light-1">Light 1</option>
+        <option value="light-2">Light 2</option>
+      </select>
     </div>
     <nav>
       
@@ -58,9 +72,11 @@
       
       <a href="/about/">ABOUT</a>
       
-      <a href="/arcs/">LORE</a>
+      <a href="/lore/">LORE</a>
       
       <a href="/characters/">CHARACTERS</a>
+      
+      <a href="/monoliths/">MONOLITHS</a>
       
       <a href="/map/">ZONES</a>
       
@@ -72,6 +88,17 @@
   <footer>
     <span>RETROGRADE.NET</span>
   </footer>
+
+  <script>
+    var themeSelect = document.getElementById('themeSelect');
+    if (themeSelect) {
+      themeSelect.value = document.documentElement.getAttribute('data-theme') || 'dark-1';
+      themeSelect.addEventListener('change', function() {
+        document.documentElement.setAttribute('data-theme', themeSelect.value);
+        localStorage.setItem('theme', themeSelect.value);
+      });
+    }
+  </script>
 
   
 </body>

@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: "Monoliths"
+extraCss: "/css/monoliths.css"
+---
+<main>
+  <div style="padding: 40px 10px 0; max-width: 1400px; margin: 0 auto;">
+    <h2 class="cg-title">Monoliths</h2>
+  </div>
+
+  <div class="monolith-grid">
+    {% for m in collections.monoliths %}
+    <a href="{{ m.url }}" class="monolith-card">
+      <div class="monolith-card-img" style="background-image: url('{{ m.data.image }}');"></div>
+      <span class="monolith-card-title">{{ m.data.title }}</span>
+      {% if m.data.tagline %}<span class="monolith-card-tagline">{{ m.data.tagline }}</span>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</main>

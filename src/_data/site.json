@@ -3,8 +3,8 @@
   "nav": [
     { "label": "HOME", "url": "/" },
     { "label": "ABOUT", "url": "/about/" },
-    { "label": "LORE", "url": "/arcs/" },
+    { "label": "LORE", "url": "/lore/" },
     { "label": "CHARACTERS", "url": "/characters/" },
+    { "label": "MONOLITHS", "url": "/monoliths/" },
     { "label": "ZONES", "url": "/map/" }
-  ]
-}
+  ]}

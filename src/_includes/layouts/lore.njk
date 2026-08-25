@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+extraCss: /css/lore.css
+---
+<article class="lore-article">
+  <h1 class="lore-title">{{ title }}</h1>
+  {% if tags %}
+  <p class="lore-meta">{{ tags | join(" · ") }}</p>
+  {% endif %}
+
+  {{ content | safe }}
+</article>

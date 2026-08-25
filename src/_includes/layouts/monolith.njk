@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+bodyClass: dossier-page
+extraCss: /css/characters.css
+---
+<main class="main-content">
+<h1 class="dossier-title">{{ title | upper | replace(" ", "<br>") | safe }}</h1>
+
+<div class="dossier-body">
+
+  <div class="dossier-portrait-col">
+    <div class="dossier-portrait">
+      <img src="{{ image }}" alt="{{ title }} logo">
+    </div>
+  </div>
+
+  <div class="dossier-info">
+
+      {% set basicIcons = {
+        "ZONE": "fa-map-pin",
+        "INDUSTRY": "fa-industry",
+        "LEADERSHIP": "fa-user-tie",
+        "HEADQUARTERS": "fa-building"
+      } %}
+      <div class="stat-strip">
+        {% for stat in basics %}
+        <div class="stat-chip">
+          <span class="stat-label">
+            {% if basicIcons[stat.label] %}<i class="fa-solid {{ basicIcons[stat.label] }}"></i> {% endif %}{{ stat.label }}
+          </span>
+          <span class="stat-value">{{ stat.value }}</span>
+        </div>
+        {% endfor %}
+      </div>
+
+
+
+    {% if employees %}
+    <span class="dossier-tag section-tag"><i class="fa-solid fa-id-badge"></i> NOTABLE EMPLOYEES</span>
+    <div class="relationship-grid">
+      {% for emp in employees %}
+      <div class="relationship-card">
+        <div class="relationship-text">
+          <span class="relationship-name"><a href="{{ emp.page }}">{{ emp.name }}</a></span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+
+    <div class="dossier">
+      {{ content | safe }}
+    </div>
+  </div>
+</div>
+</main>

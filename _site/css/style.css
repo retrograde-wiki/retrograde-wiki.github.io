@@ -5,12 +5,23 @@
   --accent2: #c8401f;
   --line: rgba(244, 238, 225, 0.15);
   --frame: 34px;
-  
-  
+
+
   --char-dim: rgba(244, 238, 225, 0.45);
   --char-line: rgba(244, 238, 225, 0.14);
   --panel: #121210;
 }
+
+
+.theme-select select {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  padding: 4px 8px;
+  font-family: inherit;
+  font-size: 13px;
+}
+
 
 * {
   margin: 0;
@@ -44,6 +55,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+
 .header-title {
 font-family:'Tomorrow',sans-serif;
 font-weight:300;
@@ -454,8 +467,8 @@ footer {
     gap: 25px;
   }
   }
-  
-  
+
+
 
 
 
@@ -757,14 +770,6 @@ footer {
 
   /* ---------- prose sections ---------- */
 
-  .dossier p {
-    font-size: 16px;
-    line-height: 1.75;
-    color: var(--text);
-    opacity: 0.9;
-    max-width: 760px;
-    margin-bottom: 14px;
-  }
 
   .dossier .spoiler {
     background: var(--text);
@@ -1150,3 +1155,10 @@ footer {
     gap: 10px;
   }
 
+
+  a:focus-visible {
+    outline: 2px solid var(--accent2);
+    outline-offset: 2px;
+  }
+
+}
