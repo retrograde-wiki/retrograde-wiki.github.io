@@ -1,0 +1,42 @@
+---
+layout: layouts/base.njk
+title: "Characters"
+extraCss: "/css/characters.css"
+extraJs: "/js/characters.js"
+---
+<main class="char-select">
+
+  <div class="char-gallery-col">
+    <div class="char-gallery-head">
+      <span class="cg-eyebrow">Select your</span>
+      <h2 class="cg-title">Character</h2>
+    </div>
+    <div class="char-gallery" id="charGallery"></div>
+  </div>
+
+  <div class="char-hero">
+    <div class="char-hero-frame">
+      <img id="charImg" class="char-hero-img" src="" alt="">
+      <div class="char-hero-label">
+        <h2 id="charName" class="char-hero-name">&mdash;</h2>
+        <p id="charDesc" class="char-hero-desc"></p>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+  const characters = [
+    {% for char in collections.characters %}
+    {
+      name: {{ char.data.title | dump | safe }},
+      desc: {{ char.data.blurb | dump | safe }},
+      thumb: {{ char.data.thumb | dump | safe }},
+      image: {{ char.data.image | dump | safe }},
+      page: {{ char.url | dump | safe }},
+      color: {{ palette[char.data.accent] | dump | safe }}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ];
+</script>

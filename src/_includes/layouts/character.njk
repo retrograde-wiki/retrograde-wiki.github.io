@@ -1,0 +1,118 @@
+---
+layout: layouts/base.njk
+bodyClass: dossier-page
+extraCss: /css/characters.css
+---
+<main class="main-content">
+<h1 class="dossier-title">{{ title | upper | replace(" ", "<br>") | safe }}</h1>
+
+<div class="dossier-body">
+
+  <div class="dossier-portrait-col">
+    <div class="dossier-portrait">
+      <img src="{{ image }}" alt="{{ title }} portrait">
+    </div>
+  </div>
+
+  <div class="dossier-info">
+
+    <div class="stat-strip">
+      {% for stat in stats %}
+      <div class="stat-chip">
+        <span class="stat-label">{{ stat.label }}</span>
+        <span class="stat-value">{{ stat.value }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="meter-columns">
+      {% set icons = {body: "fa-dumbbell", mind: "fa-brain", heart: "fa-heart"} %}
+      {% for group in ["body", "mind", "heart"] %}
+      <div class="meter-col">
+        <div class="meter-col-head"><i class="fa-solid {{ icons[group] }}"></i> {{ group | capitalize }}</div>
+        {% for m in meters[group] %}
+        <div class="meter-item">
+          <span class="meter-label">{{ m.label }}</span>
+          <div class="meter-track-row">
+            <div class="meter-track"><div class="meter-fill" style="width: {{ m.pct }}%;"></div></div>
+            <span class="meter-pct">{{ m.pct }}%</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="dossier">
+      <span class="dossier-tag section-tag"><i class="fa-solid fa-folder-open"></i> DOSSIER</span>
+      {{ content | safe }}
+
+      {% if personality %}
+      <span class="dossier-tag section-tag"><i class="fa-solid fa-brain"></i> PERSONALITY</span>
+      <p>{{ personality | safe }}</p>
+      {% endif %}
+
+      {% if abilities %}
+      <span class="dossier-tag section-tag"><i class="fa-solid fa-bolt"></i> ABILITIES</span>
+      <p>{{ abilities | safe }}</p>
+      {% endif %}
+
+      {% if likes or dislikes %}
+      <span class="dossier-tag section-tag"><i class="fa-solid fa-star"></i> INTERESTS</span>
+      <div class="two-column-section">
+        <div class="column">
+          <div class="detail-label">Likes</div>
+          <ul class="preferences-list">
+            {% for item in likes %}
+            <li><i class="fa-solid fa-plus"></i>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="column">
+          <div class="detail-label">Dislikes</div>
+          <ul class="preferences-list">
+            {% for item in dislikes %}
+            <li><i class="fa-solid fa-minus"></i>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if relationships %}
+      <span class="dossier-tag section-tag"><i class="fa-solid fa-users"></i> RELATIONSHIPS</span>
+      <div class="relationship-grid">
+        {% for rel in relationships %}
+        <div class="relationship-card">
+          <div class="relationship-avatar"><img src="{{ rel.img or '/im/thumbs/temp.png' }}"></div>
+          <div class="relationship-text">
+            <span class="relationship-name">{{ rel.name }}</span>
+            <span class="relationship-desc">{{ rel.desc }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if quotes %}
+      <span class="dossier-tag section-tag"><i class="fa-solid fa-quote-left"></i> QUOTES</span>
+      <div class="quotes-list">
+        {% for q in quotes %}
+        <blockquote>"{{ q }}"</blockquote>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if trivia %}
+      <span class="dossier-tag section-tag"><i class="fa-solid fa-circle-info"></i> TRIVIA</span>
+      <ul class="trivia-list">
+        {% for fact in trivia %}
+        <li>{{ fact }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+</main>

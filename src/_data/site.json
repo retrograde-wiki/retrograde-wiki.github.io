@@ -1,0 +1,10 @@
+{
+  "title": "RETROGRADE",
+  "nav": [
+    { "label": "HOME", "url": "/" },
+    { "label": "ABOUT", "url": "/about/" },
+    { "label": "LORE", "url": "/arcs/" },
+    { "label": "CHARACTERS", "url": "/characters/" },
+    { "label": "ZONES", "url": "/map/" }
+  ]
+}

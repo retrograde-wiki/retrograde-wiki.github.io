@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/css/style.css">
+  {% if extraCss %}<link rel="stylesheet" href="{{ extraCss }}">{% endif %}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" href="https://file.garden/aBb6prPw8QkQxICV/website/placeholder/Logo" />
+
+  <title>{{ title }} — {{ site.title }}</title>
+
+  {% if accent %}
+  <style>
+    :root {
+      --grey:   #8a8a86;
+      --red:    #c8401f;
+      --orange: #e0972c;
+      --yellow: #e0c92c;
+      --green:  #5c9a63;
+      --blue:   #4a86c9;
+      --teal:   #3aa6a0;
+      --purple: #9a6bd1;
+
+      --charcolor: var(--{{ accent }});
+      --accent2: var(--charcolor);
+    }
+  </style>
+  {% endif %}
+</head>
+
+<body class="{{ bodyClass or 'default-page' }}"{% if bgImage %} style="background-image: url('{{ bgImage }}')"{% endif %}>
+
+  <div class="frame-ticker">
+    <div class="ticker-track">
+      <div class="ticker-set">
+        <span class="tseg diamond">&#9670;</span>
+        <span class="tseg">INDEX</span>
+        <span class="tseg diamond">&#9670;</span>
+        <span class="tseg">CHARACTERS</span>
+        <span class="tseg block">SYS// RETROGRADE-</span>
+        <span class="tseg dim">UPLINK STABLE</span>
+        <span class="tseg block">EST. YR.700 POST-COLLAPSE</span>
+        <span class="tseg dim">SIG-04492-A</span>
+        <span class="tseg block">FRANCHISE TERMS APPLY</span>
+        <span class="tseg diamond">&#9670;</span>
+      </div>
+      <div class="ticker-set" aria-hidden="true">
+        <span class="tseg diamond">&#9670;</span>
+        <span class="tseg">INDEX</span>
+        <span class="tseg diamond">&#9670;</span>
+        <span class="tseg">CHARACTERS</span>
+        <span class="tseg block">SYS// RETROGRADE-</span>
+        <span class="tseg dim">UPLINK STABLE</span>
+        <span class="tseg block">EST. YR.700 POST-COLLAPSE</span>
+        <span class="tseg dim">SIG-04492-A</span>
+        <span class="tseg block">FRANCHISE TERMS APPLY</span>
+        <span class="tseg diamond">&#9670;</span>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-title">
+      <a href="/">{{ site.title }}</a>
+    </div>
+    <nav>
+      {% for item in site.nav %}
+      <a href="{{ item.url }}">{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  {{ content | safe }}
+
+  <footer>
+    <span>RETROGRADE.NET</span>
+  </footer>
+
+  {% if extraJs %}<script src="{{ extraJs }}"></script>{% endif %}
+</body>
+</html>
