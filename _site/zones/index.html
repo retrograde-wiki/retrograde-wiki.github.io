@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/themes.css">
-  <link rel="stylesheet" href="/css/characters.css">
+  <link rel="stylesheet" href="/css/zones-index.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="icon" href="https://file.garden/aBb6prPw8QkQxICV/website/placeholder/Logo" />
 
-  <title>Characters — RETROGRADE</title>
+  <title>Zones — RETROGRADE</title>
 
   
 </head>
@@ -83,42 +83,23 @@
     </nav>
   </header>
 
-  <main class="char-select">
-
-  <div class="char-gallery-col">
-    <div class="char-gallery-head">
-      <span class="cg-eyebrow">Select your</span>
-      <h2 class="cg-title">Character</h2>
-    </div>
-    <div class="char-gallery" id="charGallery"></div>
+  <main>
+  <div style="padding: 40px 10px 0; max-width: 1400px; margin: 0 auto;">
+    <span class="cg-eyebrow">Districts</span>
+    <h2 class="cg-title">Zones</h2>
   </div>
 
-  <div class="char-hero">
-    <div class="char-hero-frame">
-      <img id="charImg" class="char-hero-img" src="" alt="">
-      <div class="char-hero-label">
-        <h2 id="charName" class="char-hero-name">&mdash;</h2>
-        <p id="charDesc" class="char-hero-desc"></p>
+  <div class="zone-grid">
+    
+    <a href="/zones/example-zone/" class="zone-card">
+      <div class="zone-card-img" style="background-image: url('');">
+        <span class="zone-card-number">00</span>
       </div>
-    </div>
+      <span class="zone-card-title">Lorem Ipsum — Dolor Sit Amet</span>
+    </a>
+    
   </div>
-
 </main>
-
-<script>
-  const characters = [
-    
-    {
-      name: "Character Name",
-      desc: "A little blurb about who they are baalabablaalba.",
-      thumb: "/im/thumbs/placeholder.png",
-      image: "/im/full/placeholder.png",
-      page: "/characters/example-character/",
-      color: "#8a8a86"
-    }
-    
-  ];
-</script>
 
 
   <footer>
@@ -136,6 +117,6 @@
     }
   </script>
 
-  <script src="/js/characters.js"></script>
+  
 </body>
 </html>

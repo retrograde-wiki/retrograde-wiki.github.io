@@ -6,5 +6,5 @@
     { "label": "LORE", "url": "/lore/" },
     { "label": "CHARACTERS", "url": "/characters/" },
     { "label": "MONOLITHS", "url": "/monoliths/" },
-    { "label": "ZONES", "url": "/map/" }
+    { "label": "ZONES", "url": "/zones/" }
   ]}

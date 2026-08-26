@@ -19,6 +19,13 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Collection of all zone pages, sorted numerically by zone number
+  eleventyConfig.addCollection("zones", (collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/zones/*.md").sort((a, b) =>
+      parseInt(a.data.number, 10) - parseInt(b.data.number, 10)
+    );
+  });
+
   // Collection of all lore pages, sorted alphabetically like a wiki index
   eleventyConfig.addCollection("lore", (collectionApi) => {
     return collectionApi.getFilteredByGlob("src/lore/*.md").sort((a, b) =>

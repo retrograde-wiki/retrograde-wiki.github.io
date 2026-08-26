@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: "Zones"
+extraCss: "/css/zones-index.css"
+---
+<main>
+  <div style="padding: 40px 10px 0; max-width: 1400px; margin: 0 auto;">
+    <span class="cg-eyebrow">Districts</span>
+    <h2 class="cg-title">Zones</h2>
+  </div>
+
+  <div class="zone-grid">
+    {% for z in collections.zones %}
+    <a href="{{ z.url }}" class="zone-card">
+      <div class="zone-card-img" style="background-image: url('{{ z.data.thumb }}');">
+        {% if z.data.number %}<span class="zone-card-number">{{ z.data.number }}</span>{% endif %}
+      </div>
+      <span class="zone-card-title">{{ z.data.title }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</main>

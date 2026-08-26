@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+extraCss: /css/lore.css
+---
+<article class="lore-article">
+  <h1 class="lore-title">{{ title }}</h1>
+
+  <div class="zone-stat-strip">
+    {% if number %}
+    <div class="zone-stat"><span class="zone-stat-label">Zone No.</span><span class="zone-stat-value">{{ number }}</span></div>
+    {% endif %}
+    {% if population %}
+    <div class="zone-stat"><span class="zone-stat-label">Population</span><span class="zone-stat-value">{{ population }}</span></div>
+    {% endif %}
+    {% if geography %}
+    <div class="zone-stat"><span class="zone-stat-label">Geography</span><span class="zone-stat-value">{{ geography }}</span></div>
+    {% endif %}
+  </div>
+
+  {{ content | safe }}
+
+  {% if gallery %}
+  <h2>Gallery</h2>
+  <div class="zone-gallery">
+    {% for shot in gallery %}
+    <a href="{{ shot.href or shot.src }}" target="_blank" rel="noopener" class="zone-gallery-item">
+      <img src="{{ shot.src }}" alt="{{ shot.alt or '' }}">
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>
