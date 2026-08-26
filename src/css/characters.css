@@ -716,4 +716,67 @@
     grid-template-columns: repeat(auto-fit, minmax(70px, 100px));
     gap: 10px;
   }
+
+
+  /* Append this block to the end of characters.css.
+     Styles the markdown body inside .dossier (used by both character
+     and monolith pages). Uses --charcolor when set (character pages),
+     falling back to the theme's --accent2 otherwise (monoliths, etc). */
+
+  .dossier h2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Tomorrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--charcolor, var(--accent2));
+    margin-top: 46px;
+    margin-bottom: 10px;
+  }
+
+  .dossier h2:first-child {
+    margin-top: 0;
+  }
+
+  .dossier ul {
+    list-style: none;
+    max-width: 760px;
+    margin-bottom: 14px;
+    padding-left: 0;
+  }
+
+  .dossier li {
+    font-size: 16px;
+    line-height: 1.7;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+    opacity: 0.9;
+  }
+
+  .dossier li::before {
+    content: '\f0da';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: var(--charcolor, var(--accent2));
+    font-size: 12px;
+  }
+
+  .dossier strong,
+  .dossier b {
+    color: var(--charcolor, var(--accent2));
+    font-weight: 700;
+  }
+
+  .dossier a {
+    color: var(--charcolor, var(--accent2));
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
 }

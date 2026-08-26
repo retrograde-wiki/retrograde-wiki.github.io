@@ -17,16 +17,18 @@ extraCss: /css/lore.css
     {% endif %}
   </div>
 
-  {{ content | safe }}
+  <div class="prose">
+    {{ content | safe }}
 
-  {% if gallery %}
-  <h2>Gallery</h2>
-  <div class="zone-gallery">
-    {% for shot in gallery %}
-    <a href="{{ shot.href or shot.src }}" target="_blank" rel="noopener" class="zone-gallery-item">
-      <img src="{{ shot.src }}" alt="{{ shot.alt or '' }}">
-    </a>
-    {% endfor %}
+    {% if gallery %}
+    <h2>Gallery</h2>
+    <div class="zone-gallery">
+      {% for shot in gallery %}
+      <a href="{{ shot.href or shot.src }}" target="_blank" rel="noopener" class="zone-gallery-item">
+        <img src="{{ shot.src }}" alt="{{ shot.alt or '' }}">
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
-  {% endif %}
 </article>

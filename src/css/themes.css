@@ -5,6 +5,8 @@
   --char-dim: rgba(244, 238, 225, 0.45);
   --char-line: rgba(244, 238, 225, 0.14);
   --panel: #121210;
+  --accent: #c8401f;
+  --accent2: #c8401f;
 }
 
 [data-theme="dark-2"] {
@@ -14,6 +16,8 @@
   --char-dim: rgba(216, 224, 232, 0.45);
   --char-line: rgba(216, 224, 232, 0.14);
   --panel: #161b22;
+  --accent: #4a86c9;
+  --accent2: #4a86c9;
 }
 
 [data-theme="light-1"] {
@@ -23,6 +27,8 @@
   --char-dim: rgba(10, 10, 9, 0.45);
   --char-line: rgba(10, 10, 9, 0.14);
   --panel: #e6dfd0;
+  --accent: #c8401f;
+  --accent2: #c8401f;
 }
 
 [data-theme="light-2"] {
@@ -32,4 +38,6 @@
   --char-dim: rgba(0, 0, 0, 0.4);
   --char-line: rgba(0, 0, 0, 0.12);
   --panel: #f0f0f0;
+  --accent: #3aa6a0;
+  --accent2: #3aa6a0;
 }

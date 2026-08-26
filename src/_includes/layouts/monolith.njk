@@ -16,24 +16,22 @@ extraCss: /css/characters.css
 
   <div class="dossier-info">
 
-      {% set basicIcons = {
-        "ZONE": "fa-map-pin",
-        "INDUSTRY": "fa-industry",
-        "LEADERSHIP": "fa-user-tie",
-        "HEADQUARTERS": "fa-building"
-      } %}
-      <div class="stat-strip">
-        {% for stat in basics %}
-        <div class="stat-chip">
-          <span class="stat-label">
-            {% if basicIcons[stat.label] %}<i class="fa-solid {{ basicIcons[stat.label] }}"></i> {% endif %}{{ stat.label }}
-          </span>
-          <span class="stat-value">{{ stat.value }}</span>
-        </div>
-        {% endfor %}
+    {% set basicIcons = {
+      "ZONE": "fa-map-pin",
+      "INDUSTRY": "fa-industry",
+      "LEADERSHIP": "fa-user-tie",
+      "HEADQUARTERS": "fa-building"
+    } %}
+    <div class="stat-strip">
+      {% for stat in basics %}
+      <div class="stat-chip">
+        <span class="stat-label">
+          {% if basicIcons[stat.label] %}<i class="fa-solid {{ basicIcons[stat.label] }}"></i> {% endif %}{{ stat.label }}
+        </span>
+        <span class="stat-value">{{ stat.value }}</span>
       </div>
-
-
+      {% endfor %}
+    </div>
 
     {% if employees %}
     <span class="dossier-tag section-tag"><i class="fa-solid fa-id-badge"></i> NOTABLE EMPLOYEES</span>
@@ -48,8 +46,12 @@ extraCss: /css/characters.css
     </div>
     {% endif %}
 
+    {% if spotifyTrack %}
+    <span class="dossier-tag section-tag"><i class="fa-solid fa-music"></i> AMBIENCE</span>
+    <iframe style="border-radius:8px" src="{{ spotifyTrack }}" width="100%" height="152" frameborder="0" allow="encrypted-media"></iframe>
+    {% endif %}
 
-    <div class="dossier">
+    <div class="dossier prose">
       {{ content | safe }}
     </div>
   </div>

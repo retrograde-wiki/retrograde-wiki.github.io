@@ -8,5 +8,7 @@ extraCss: /css/lore.css
   <p class="lore-meta">{{ tags | join(" · ") }}</p>
   {% endif %}
 
-  {{ content | safe }}
+  <div class="prose">
+    {{ content | safe }}
+  </div>
 </article>
