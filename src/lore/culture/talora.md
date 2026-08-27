@@ -1,8 +1,9 @@
 ---
 layout: layouts/lore.njk
-title: "The Vojari People"
+title: "Talora People"
 tags: ["Ancestral Nations", "Cultures"]
 ---
+
 ## OVERVIEW
 
 The Vojari are a very scattered group, as they have no set homeland. They travel, typically in small moving homes- typically electrically powered, but sometimes pulled by large anomalies. These homes are incredibly armored, and nearly impenetrable, the sheer sturdiness being the only reason they're able to weather through the [Blood moons].

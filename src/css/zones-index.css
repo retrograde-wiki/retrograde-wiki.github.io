@@ -3,7 +3,7 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 24px;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 0;
   padding: 40px 10px;
 }
 
@@ -26,7 +26,7 @@
 
 .zone-card:hover .zone-card-img {
   transform: scale(1.04);
-  border-color: var(--accent);
+  border-color: var(--accent2);
 }
 
 .zone-card-number {

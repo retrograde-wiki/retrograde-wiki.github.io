@@ -1,8 +1,11 @@
 ---
 layout: layouts/lore.njk
-title: "ARTICLE TITLE"
+title: "Vojari People"
 tags: ["Ancestral Nations", "Cultures"]
 ---
+
+## OVERVIEW
+
 The Talora are one of Zenith's Ancestral Peoples. They are native to the badlands and mesas of Zone 17 Rho. In particular, their biggest settlement is built into Rho's famous Blood Canyon.
 
 ## CULTURE

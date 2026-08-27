@@ -39,7 +39,7 @@ html, body {
 }
 
 body {
-  font-family: 'Space Mono', 'Courier New', monospace;
+  font-family: 'IBM Plex Sans', 'Courier New', monospace;
   min-height: 100vh;
   letter-spacing: 1.5px;
   display: flex;
@@ -327,7 +327,7 @@ main.hero {
   background: none;
   border: none;
   color: var(--text);
-  font-family: 'Space Mono', monospace;
+  font-family: 'IBM Plex Sans', monospace;
   font-size: 13px;
   cursor: pointer;
   padding: 2px 3px;
@@ -760,7 +760,7 @@ footer {
   .dossier-quote cite {
     display: block;
     margin-top: 10px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'IBM Plex Sans', monospace;
     font-style: normal;
     font-size: 11px;
     letter-spacing: 1px;
