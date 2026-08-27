@@ -94,10 +94,16 @@
 
 /* wiki-style alphabetical index */
 
-.lore-index {
-  max-width: 720px;
+.lore-home {
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 60px 20px 120px;
+  padding: 40px 10px 120px;
+}
+
+.lore-divider {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 40px 0;
 }
 
 .cg-eyebrow {
@@ -123,6 +129,7 @@
 
 .wiki-list {
   list-style: none;
+  max-width: 600px;
   margin-top: 30px;
 }
 
@@ -172,6 +179,8 @@
   color: var(--text);
 }
 
+/* controlling-monolith link card — drop this snippet directly in a
+   zone's markdown body wherever it should appear */
 
 .monolith-link-card {
   display: flex;
@@ -196,6 +205,7 @@
   color: var(--accent2);
 }
 
+/* zone image gallery — click through to source */
 
 .zone-gallery {
   display: grid;
@@ -219,4 +229,92 @@
 
 .zone-gallery-item:hover img {
   transform: scale(1.06);
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  opacity: 0.7;
+}
+
+.breadcrumbs a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus-visible {
+  color: var(--accent2);
+}
+
+.breadcrumb-sep {
+  margin: 0 8px;
+  opacity: 0.5;
+}
+
+.breadcrumb-current {
+  color: var(--accent2);
+}
+
+.breadcrumb-label {
+  opacity: 0.7;
+}
+
+/* lore index group headings */
+
+.wiki-group-heading {
+  font-family: 'Tomorrow', Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent2);
+  margin-top: 36px;
+  margin-bottom: 4px;
+  opacity: 0.85;
+}
+
+/* lore icon card grid — categories and standalone pages together */
+
+.lore-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.lore-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  padding: 24px 12px;
+  border: 1px solid var(--line);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  flex: 1 1 160px;
+  max-width: 220px;
+}
+
+.lore-card:hover,
+.lore-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--accent2);
+}
+
+.lore-card-icon {
+  font-size: 28px;
+  color: var(--accent2);
+}
+
+.lore-card-title {
+  font-family: 'Tomorrow', Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text);
+  text-align: center;
 }

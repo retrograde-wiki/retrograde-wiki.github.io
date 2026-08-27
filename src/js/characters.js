@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function applyColor(character) {
     if (!character.color) return;
     root.style.setProperty('--accent', character.color);
-    root.style.setProperty('--accent2', character.color);
+    root.style.setProperty('--accent', character.color);
   }
 
   let switching = false;

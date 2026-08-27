@@ -1,0 +1,15 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="/">Home</a><span class="breadcrumb-sep">/</span>
+  {% for crumb in page.url | breadcrumbs(collections.all) %}
+    {% if crumb.isLast %}
+    <span class="breadcrumb-current">{{ title }}</span>
+    {% else %}
+      {% if crumb.exists %}
+      <a href="{{ crumb.url }}">{{ crumb.label }}</a>
+      {% else %}
+      <span class="breadcrumb-label">{{ crumb.label }}</span>
+      {% endif %}
+    <span class="breadcrumb-sep">/</span>
+    {% endif %}
+  {% endfor %}
+</nav>

@@ -3,6 +3,7 @@ layout: layouts/base.njk
 extraCss: /css/lore.css
 ---
 <article class="lore-article">
+  {% include "partials/breadcrumbs.njk" %}
   <h1 class="lore-title">{{ title }}</h1>
   {% if tags %}
   <p class="lore-meta">{{ tags | join(" · ") }}</p>

@@ -26,7 +26,7 @@
 
 .zone-card:hover .zone-card-img {
   transform: scale(1.04);
-  border-color: var(--accent2);
+  border-color: var(--accent);
 }
 
 .zone-card-number {

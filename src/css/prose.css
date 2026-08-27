@@ -12,7 +12,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--charcolor, var(--accent2));
+  color: var(--charcolor, var(--accent));
   margin-top: 46px;
   margin-bottom: 10px;
 }
@@ -62,24 +62,24 @@
   font-weight: 900;
   position: absolute;
   left: 0;
-  color: var(--charcolor, var(--accent2));
+  color: var(--charcolor, var(--accent));
   font-size: 12px;
 }
 
 .prose strong,
 .prose b {
-  color: var(--charcolor, var(--accent2));
+  color: var(--charcolor, var(--accent));
   font-weight: 700;
 }
 
 .prose a {
-  color: var(--charcolor, var(--accent2));
+  color: var(--charcolor, var(--accent));
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 .prose blockquote {
-  border-left: 3px solid var(--charcolor, var(--accent2));
+  border-left: 3px solid var(--charcolor, var(--accent));
   padding-left: 18px;
   margin: 28px 0;
   opacity: 0.85;

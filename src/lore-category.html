@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections.loreCategories
+  size: 1
+  alias: group
+permalink: "/lore/{{ group.category }}/"
+layout: layouts/base.njk
+extraCss: /css/lore.css
+eleventyComputed:
+  title: "{{ loreCategories[group.category].title or group.category }}"
+---
+<main class="lore-index">
+  {% include "partials/breadcrumbs.njk" %}
+  {% set meta = loreCategories[group.category] %}
+  <span class="cg-eyebrow">Category</span>
+  <h2 class="cg-title">{{ title }}</h2>
+
+  <ul class="wiki-list">
+    {% for entry in group.pages %}
+    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</main>

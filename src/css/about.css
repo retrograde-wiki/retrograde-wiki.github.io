@@ -1,0 +1,71 @@
+/* the image sits on <body> via bgImage; keep it pinned to the
+   viewport so it never scrolls, even once the text column below
+   grows taller than one screen */
+
+body.about-page {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.about-article {
+  position: relative;
+}
+
+.about-article::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    var(--bg) 0%,
+    color-mix(in srgb, var(--bg) 85%, transparent) 35%,
+    color-mix(in srgb, var(--bg) 40%, transparent) 60%,
+    transparent 85%
+  );
+  z-index: 0;
+  pointer-events: none;
+}
+
+.about-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  padding: 120px var(--frame) 160px;
+  text-align: left;
+}
+
+
+
+.about-title {
+  font-family: 'Tomorrow', Arial, sans-serif;
+  font-weight: 900;
+  font-size: clamp(48px, 8vw, 88px);
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 32px;
+  line-height: 1;
+}
+
+.about-content.prose p {
+  font-size: 18px;
+  line-height: 1.4;
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  .about-article::before {
+    background: linear-gradient(
+      to bottom,
+      var(--bg) 0%,
+      color-mix(in srgb, var(--bg) 80%, transparent) 50%,
+      transparent 90%
+    );
+  }
+
+  .about-content {
+    padding: 80px var(--frame) 100px;
+  }
+}
