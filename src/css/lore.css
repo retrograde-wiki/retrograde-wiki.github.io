@@ -178,7 +178,7 @@
 /* controlling-monolith link card — drop this snippet directly in a
    zone's markdown body wherever it should appear */
 
-.monolith-link-card {
+.link-card {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -192,12 +192,12 @@
   text-transform: uppercase;
 }
 
-.monolith-link-card:hover {
+.link-card:hover {
   border-color: var(--accent2);
   color: var(--accent2);
 }
 
-.monolith-link-card strong {
+.link-card strong {
   color: var(--accent2);
 }
 
@@ -313,4 +313,41 @@
   text-transform: uppercase;
   color: var(--text);
   text-align: center;
+}
+
+
+/* markdown tables */
+
+.lore-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 28px 0;
+  border: 1px solid var(--line);
+}
+
+.lore-article th {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 12px 16px;
+  text-align: left;
+  font-family: 'Tomorrow', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent2);
+  border-bottom: 2px solid var(--line);
+}
+
+.lore-article td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+  opacity: 0.92;
+}
+
+.lore-article tr:last-child td {
+  border-bottom: none;
+}
+
+.lore-article tr:hover td {
+  background-color: rgba(0, 0, 0, 0.02);
 }

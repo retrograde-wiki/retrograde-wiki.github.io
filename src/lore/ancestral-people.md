@@ -2,11 +2,8 @@
 layout: layouts/lore.njk
 title: "Ancestral Peoples"
 tags: ["cultures"]
-icon: "fa-map"
+icon: "fa-user-group"
  
-boxes:
-  - { title: "Talora", icon: "fa-scroll", url: "/lore/culture/talora/" }
-  - { title: "Vojari", icon: "fa-scroll", url: "/lore/culture/vojari/" }
 ---
 
 The Ancestral Peoples are the different cultures of Zenith of those descended from the original Zenith colonies.

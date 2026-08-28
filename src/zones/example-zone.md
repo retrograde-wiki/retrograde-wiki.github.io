@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam
 - Lorem ipsum dolor sit amet
 - Consectetur adipiscing elit
 
-<a class="monolith-link-card" href="/monoliths/lorem-ipsum/">
+<a class="link-card" href="/monoliths/lorem-ipsum/">
   <i class="fa-solid fa-link"></i> See more at <strong>LOREM IPSUM</strong>
 </a>
 

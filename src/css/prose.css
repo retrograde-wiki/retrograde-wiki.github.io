@@ -3,6 +3,23 @@
    images inside it all get this treatment — used by character pages,
    monolith pages, lore articles, and zone pages alike. */
 
+   .prose h1 {
+     font-family: 'Tomorrow', Arial, sans-serif;
+     font-size: 40px;
+     font-weight: 400;
+     letter-spacing: -0.5px;
+     color: var(--text);
+     border-bottom: 1px solid var(--line);
+     padding-bottom: 14px;
+     margin-top: 56px;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+   }
+
+.prose h1:first-child {
+  margin-top: 0;
+}
+
 .prose h2 {
   display: inline-flex;
   align-items: center;
@@ -12,22 +29,34 @@
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--charcolor, var(--accent));
-  margin-top: 46px;
-  margin-bottom: 10px;
+  color: var(--charcolor, var(--accent2));
+  margin-top: 40px;
+  margin-bottom: 14px;
 }
 
-.prose h2:first-child {
+.prose h1:first-child,
+.prose h2:first-child,
+.prose h3:first-child {
+  margin-top: 0;
+}
+
+.prose h1 + h2 {
   margin-top: 0;
 }
 
 .prose h3 {
-  font-size: 19px;
-  margin-top: 32px;
+  font-family: 'Tomorrow', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 30px;
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   opacity: 0.85;
+}
+
+.prose h2 + h3 {
+  margin-top: 0;
 }
 
 .prose p {
@@ -62,24 +91,24 @@
   font-weight: 900;
   position: absolute;
   left: 0;
-  color: var(--charcolor, var(--accent));
+  color: var(--charcolor, var(--accent2));
   font-size: 12px;
 }
 
 .prose strong,
 .prose b {
-  color: var(--charcolor, var(--accent));
+  color: var(--charcolor, var(--accent2));
   font-weight: 700;
 }
 
 .prose a {
-  color: var(--charcolor, var(--accent));
+  color: var(--charcolor, var(--accent2));
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 .prose blockquote {
-  border-left: 3px solid var(--charcolor, var(--accent));
+  border-left: 3px solid var(--charcolor, var(--accent2));
   padding-left: 18px;
   margin: 28px 0;
   opacity: 0.85;
