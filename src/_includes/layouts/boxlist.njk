@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+extraCss: /css/lore.css
+---
+<main class="lore-home">
+  {% include "partials/breadcrumbs.njk" %}
+  <span class="cg-eyebrow">Collection</span>
+  <h2 class="cg-title">{{ title }}</h2>
+
+  {% if content %}
+  <div class="prose" style="max-width: 640px; margin-bottom: 20px;">
+    {{ content | safe }}
+  </div>
+  {% endif %}
+
+  <div class="lore-card-grid">
+    {% for box in boxes %}
+    <a href="{{ box.url }}" class="lore-card">
+      <div class="lore-card-icon"><i class="fa-solid {{ box.icon or 'fa-file-lines' }}"></i></div>
+      <span class="lore-card-title">{{ box.title }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</main>

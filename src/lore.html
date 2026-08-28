@@ -4,28 +4,17 @@ title: "Lore"
 extraCss: /css/lore.css
 ---
 <main class="lore-home">
+  <span class="cg-eyebrow">Archive</span>
   <h2 class="cg-title">Lore</h2>
 
-  {% if collections.loreCategories.length %}
   <div class="lore-card-grid">
-    {% for group in collections.loreCategories %}
-    {% set meta = loreCategories[group.category] %}
-    <a href="/lore/{{ group.category }}/" class="lore-card">
-      <div class="lore-card-icon"><i class="fa-solid {{ meta.icon or 'fa-folder' }}"></i></div>
-      <span class="lore-card-title">{{ meta.title or (group.category | replace("-", " ") | capitalize) }}</span>
-    </a>
-    {% endfor %}
-  </div>
-  <hr class="lore-divider">
-  {% endif %}
-
-  <ul class="wiki-list">
-    {% for group in collections.loreGrouped %}
-      {% if not group.category %}
-        {% for entry in group.pages %}
-        <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
-        {% endfor %}
+    {% for entry in collections.lore %}
+      {% if not entry.data.hideFromIndex %}
+      <a href="{{ entry.url }}" class="lore-card">
+        <div class="lore-card-icon"><i class="fa-solid {{ entry.data.icon or 'fa-file-lines' }}"></i></div>
+        <span class="lore-card-title">{{ entry.data.title }}</span>
+      </a>
       {% endif %}
     {% endfor %}
-  </ul>
+  </div>
 </main>

@@ -2,6 +2,7 @@
 layout: layouts/lore.njk
 title: "Talora People"
 tags: ["Ancestral Nations", "Cultures"]
+hideFromIndex: true
 ---
 
 ## OVERVIEW

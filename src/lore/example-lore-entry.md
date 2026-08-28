@@ -2,6 +2,7 @@
 layout: layouts/lore.njk
 title: "ARTICLE TITLE"
 tags: ["history", "other tag"]
+hideFromIndex: true
 ---
 This is a lore article. Write everything in here as **Markdown**.
 

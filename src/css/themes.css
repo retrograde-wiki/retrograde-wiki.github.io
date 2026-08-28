@@ -88,14 +88,14 @@
 }
 
 [data-theme="light-3"] {
-  --bg: #edf8f7;
+  --bg: #c5e1f3;
   --text: #102326;
   --line: rgba(16, 35, 38, 0.14);
   --char-dim: rgba(16, 35, 38, 0.42);
   --char-line: rgba(16, 35, 38, 0.12);
   --panel: #dceeed;
-  --accent: #168f91;
-  --accent2: #48b9d1;
+  --accent: #1b4b86;
+  --accent2: #298cb3;
 }
 
 [data-theme="light-4"] {

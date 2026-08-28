@@ -2,6 +2,11 @@
 layout: layouts/lore.njk
 title: "Ancestral Peoples"
 tags: ["cultures"]
+icon: "fa-map"
+ 
+boxes:
+  - { title: "Talora", icon: "fa-scroll", url: "/lore/culture/talora/" }
+  - { title: "Vojari", icon: "fa-scroll", url: "/lore/culture/vojari/" }
 ---
 
 The Ancestral Peoples are the different cultures of Zenith of those descended from the original Zenith colonies.
@@ -17,5 +22,5 @@ They are not a single ethnicity or civilization, and they are generally referred
 They typically live on the outskirts, and whether they accept runaways or not depends on the group.
 ## KNOWN ANCESTRAL NATIONS
 
-- [The Vojari](/lore/culture/vojari/)
-- [The Talora](/lore/culture/talora/)
+- [The Vojari Nation](/lore/culture/vojari/) (Global)
+- [The Talora](/lore/culture/talora/) (Zone 17)
