@@ -22,9 +22,10 @@ Zenith, noteably has **nine moons**, all (sometimes) visible from the planet's s
 One would say, "I was born under Iris".
 
 # The Calender
-[For an interactable calender viewable on your browser click here](https://example.com)
+[For an interactable calender viewable on your browser click here](https://app.fantasy-calendar.com/calendars/4d704911cf5ab313537994be2b0a300f)
 
-| # | Month | Moon | Color | Significance |
+
+| # | Month | Zodiac/Moon | Color | Traits |
 |---|-------|------|-------|--------------|
 | 1 | **Auren** | Aether | White | Order, balance, beginnings |
 | 2 | **Iria** | Iris | Pink | Growth, compassion, creation |
@@ -34,8 +35,9 @@ One would say, "I was born under Iris".
 | 6 | **Valen** | Vale | Green | Loyalty, stability |
 | 7 | **Peren** | Peregrin | Orange | Curiosity, exploration |
 | 8 | **Vulkan** | Red Moon | Red | Strength, challenge |
-| 9 | **Aster** | Aster | Grey | Peace, completion |
+| 9 | **Aster** | Aster | Teal | Peace, completion |
 
+*Bigger page dedicated to these in the works*
 
 ## Climate & Seasons
 
