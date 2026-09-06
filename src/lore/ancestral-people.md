@@ -1,7 +1,6 @@
 ---
 layout: layouts/lore.njk
 title: "Ancestral Peoples"
-tags: ["cultures"]
 icon: "fa-user-group"
  
 ---

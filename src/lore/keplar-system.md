@@ -1,7 +1,6 @@
 ---
 layout: layouts/lore.njk
 title: "Keplar System"
-tags: ["history", "other tag"]
 icon: "fa-meteor"
 hideFromIndex: false
 ---

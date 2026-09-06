@@ -1,7 +1,6 @@
 ---
 layout: layouts/lore.njk
 title: "Calender"
-tags: ["history", "other tag"]
 icon: "fa-calendar-days"
 hideFromIndex: false
 ---

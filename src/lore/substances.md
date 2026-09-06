@@ -1,7 +1,6 @@
 ---
 layout: layouts/lore.njk
 title: "Substances"
-tags: ["history", "other tag"]
 hideFromIndex: false
 icon: "fa-pills"
  

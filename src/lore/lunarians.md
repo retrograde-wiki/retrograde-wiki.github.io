@@ -1,16 +1,20 @@
 ---
 layout: layouts/lore.njk
 title: "Lunarians"
-tags: ["humanity"]
 icon: "fa-user"
 hideFromIndex: false
 ---
+
+<a class="link-card">
+  <i class="fa-solid fa-warning"></i> This is a very big and recent adition to Retrograde. It is subject to change and review.
+</a>
+
 **Lunarians** are a species of evolved humans descended from the original human population of Earth. Over generations of living on Zenith, Lunarians developed a number of physical and biological traits distinct from traditional humans. Despite these differences, they are generally considered part of humanity's evolutionary lineage.
 
 # Biology and Appearance
 
 Lunarians vary significantly in appearance. Unlike traditional humans, they **may possess skin/hair in nearly any color of the visible spectrum** , with coloration primarily inherited from their parents. 
-
+ 
 Lunarians also possess **unusually colored eyes and blood**. An individual's eye and blood color are determined by their **Zodiac** sign and **Birthday**. Each Zodiac is associated with a specific coloration. 
 
 For example, individuals born under [Arc](/lore/calender) possess yellow eyes and yellow blood. Other zodiac signs are associated with their own distinct colors, and even personality traits. It is not entirely understood why this happens.

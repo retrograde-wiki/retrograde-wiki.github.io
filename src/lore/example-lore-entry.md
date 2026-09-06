@@ -1,7 +1,6 @@
 ---
 layout: layouts/lore.njk
 title: "ARTICLE TITLE"
-tags: ["history", "other tag"]
 icon: "fa-calendar-days"
 hideFromIndex: true
 ---
@@ -18,6 +17,11 @@ Regular paragraph text goes here. Multiple paragraphs, [links to other lore page
 A plain image, centered and scaled to fit the column:
 
 ![Describe the image here for screen readers](/im/lore/collapse-01.png)
+
+<a class="link-card" href="/monoliths/lorem-ipsum/">
+  <i class="fa-solid fa-link"></i> See more at <strong>LOREM IPSUM</strong>
+</a>
+
 
 ## With a caption
 

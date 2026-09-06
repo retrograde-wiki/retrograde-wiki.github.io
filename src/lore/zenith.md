@@ -1,7 +1,6 @@
 ---
 layout: layouts/lore.njk
 title: "Zenith (The Planet)"
-tags: ["history", "other tag"]
 icon: "fa-earth"
 hideFromIndex: false
 ---
