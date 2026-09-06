@@ -1,8 +1,4 @@
 
-// `characters` is provided by an inline <script> in characters.html,
-// generated at build time from each character page's front matter —
-// no need to keep a duplicate list here.
-
 document.addEventListener('DOMContentLoaded', function () {
   const gallery  = document.getElementById('charGallery');
   const hero     = document.querySelector('.char-hero');

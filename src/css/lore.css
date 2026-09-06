@@ -1,9 +1,11 @@
 .lore-article {
-  max-width: 720px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 60px 20px 120px;
+  padding: 60px 40px 60px;
+  min-height: 100vh;
   line-height: 1.75;
-  font-size: 17px;
+  font-size: 16px;
+  background-color: var(--bg2);
 }
 
 .lore-title {
@@ -13,8 +15,7 @@
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: -1px;
-  margin-bottom: 8px;
-  color: var(--text);
+  margin-bottom: 12px;
 }
 
 .lore-meta {
@@ -106,9 +107,7 @@
   margin: 40px 0;
 }
 
-.cg-eyebrow {
-  display: block;
-  font-size: 13px;
+
   letter-spacing: 2.5px;
   text-transform: uppercase;
   color: var(--text);

@@ -1,9 +1,6 @@
 ---
 layout: layouts/zone.njk
-title: "ZONE 14 // XI"
-number: "14"
-population: "~00,000"
-geography: "Hot Wasteland"
+title: "ZONE 14 - XI"
 
 gallery:
   - { src: "/im/zones/example-01.jpg", href: "https://example.com/source-1", alt: "Lorem ipsum dolor sit amet" }

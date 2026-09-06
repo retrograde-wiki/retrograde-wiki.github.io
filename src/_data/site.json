@@ -4,7 +4,7 @@
     { "label": "HOME", "url": "/" },
     { "label": "ABOUT", "url": "/about/" },
     { "label": "LORE", "url": "/lore/" },
-    { "label": "CHARACTERS", "url": "/characters/" },
+    { "label": "CHARACTERS", "url": "" },
     { "label": "MONOLITHS", "url": "/monoliths/" },
     { "label": "ZONES", "url": "/zones/" }
   ]}

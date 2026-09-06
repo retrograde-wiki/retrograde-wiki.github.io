@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/im");
+  eleventyConfig.addPassthroughCopy("src/sound");
 
   // Collection of all character pages, sorted alphabetically by title
   eleventyConfig.addCollection("characters", (collectionApi) => {

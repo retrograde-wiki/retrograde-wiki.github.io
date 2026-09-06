@@ -74,43 +74,45 @@
     </div>
   </div>
 
-  <header>
+<header>
+  <div class="header-left">
     <div class="theme-select">
       <select id="themeSelect" aria-label="Theme">
-        <option value="dark-1">Orange Dark</option>
+        <option value="dark-1">Retrograde Dark</option>
         <option value="dark-2">Purple Dark</option>
         <option value="dark-3">Blue Dark</option>
         <option value="dark-4">Green Dark</option>
-        <option value="dark-5">Red Dark</option>
+        <option value="dark-5">Orange Dark</option>
         <option value="dark-6">Yellow Dark</option>
         <option value="grey-1">Easy Reading Dark</option>
-
         <option value="">-----------</option>
-
-
-        <option value="light-1">Orange Light</option>
+        <option value="light-1">Retrograde Light</option>
         <option value="light-2">Purple Light</option>
         <option value="light-3">Blue Light</option>
         <option value="light-4">Green Light</option>
-        <option value="light-5">Red Light</option>
+        <option value="light-5">Orange Light</option>
         <option value="light-6">Yellow Light</option>
         <option value="grey-2">Easy Reading light</option>
-
-
       </select>
     </div>
-    <nav>
-      {% for item in site.nav %}
-      <a href="{{ item.url }}">{{ item.label }}</a>
-      {% endfor %}
-    </nav>
-  </header>
+
+    <div class="header-player" id="headerPlayer">
+      <button id="playerToggle" class="player-btn" aria-label="Play or pause"><i class="fa-solid fa-play"></i></button>
+      <div class="player-track">
+        <span id="playerTrackText" class="player-track-text">—</span>
+      </div>
+      <button id="playerNext" class="player-btn" aria-label="Next track"><i class="fa-solid fa-forward-step"></i></button>
+    </div>
+  </div>
+
+  <nav>
+    {% for item in site.nav %}
+    <a href="{{ item.url }}">{{ item.label }}</a>
+    {% endfor %}
+  </nav>
+</header>
 
   {{ content | safe }}
-
-  <footer>
-    <span>RETROGRADE.NET</span>
-  </footer>
 
   <script>
     var themeSelect = document.getElementById('themeSelect');
@@ -122,6 +124,7 @@
       });
     }
   </script>
-  {% if extraJs %}<script src="{{ extraJs }}"></script>{% endif %}
+{% if extraJs %}<script src="{{ extraJs }}"></script>{% endif %}
+<script src="/js/player.js"></script>
 </body>
 </html>
