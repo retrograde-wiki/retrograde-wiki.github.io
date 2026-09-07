@@ -50,12 +50,16 @@
   opacity: 0.92;
 }
 
+
+
 .lore-article a {
-  color: var(--accent2);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  color: var(--accent);
 }
 
+.lore-article a:hover {
+  text-decoration: underline;
+
+}
 .lore-article ul,
 .lore-article ol {
   margin: 0 0 18px 1.2em;
@@ -74,7 +78,6 @@
   font-style: italic;
 }
 
-/* images — full-width within the article column, with optional captions */
 
 .lore-article figure {
   margin: 36px 0;
@@ -93,7 +96,6 @@
   text-align: center;
 }
 
-/* wiki-style alphabetical index */
 
 .lore-home {
   max-width: 1400px;
@@ -108,12 +110,6 @@
 }
 
 
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: var(--text);
-  opacity: 0.5;
-  margin-bottom: 4px;
-}
 
 .cg-title {
   font-family: 'Tomorrow', Arial, sans-serif;
@@ -145,7 +141,6 @@
   color: var(--accent2);
 }
 
-/* zone quick-facts strip */
 
 .zone-stat-strip {
   display: flex;
@@ -174,8 +169,6 @@
   color: var(--text);
 }
 
-/* controlling-monolith link card — drop this snippet directly in a
-   zone's markdown body wherever it should appear */
 
 .link-card {
   display: flex;
@@ -200,7 +193,6 @@
   color: var(--accent2);
 }
 
-/* zone image gallery — click through to source */
 
 .zone-gallery {
   display: grid;
@@ -259,7 +251,6 @@
   opacity: 0.7;
 }
 
-/* lore index group headings */
 
 .wiki-group-heading {
   font-family: 'Tomorrow', Arial, sans-serif;
@@ -272,7 +263,6 @@
   opacity: 0.85;
 }
 
-/* lore icon card grid — categories and standalone pages together */
 
 .lore-card-grid {
   display: flex;
@@ -315,7 +305,6 @@
 }
 
 
-/* markdown tables */
 
 .lore-article table {
   width: 100%;

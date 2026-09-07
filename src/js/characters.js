@@ -33,16 +33,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   characters.forEach(function (character) {
-    // an <a> instead of a <button> - hover/focus still preview in the
-    // hero panel, but a click (or middle-click / ctrl-click) navigates
-    // to the character's page like a normal link, no JS needed for that part
     const thumb = document.createElement('a');
     thumb.className = 'char-thumb';
     thumb.href = character.page;
     thumb.style.backgroundImage = `url('${character.thumb}')`;
     thumb.setAttribute('aria-label', character.name);
 
-    // hover for mouse, focus so keyboard nav works too
     thumb.addEventListener('mouseenter', () => show(character));
     thumb.addEventListener('focus', () => show(character));
 

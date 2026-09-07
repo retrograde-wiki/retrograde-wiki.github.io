@@ -1,6 +1,4 @@
-/* the image sits on <body> via bgImage; keep it pinned to the
-   viewport so it never scrolls, even once the text column below
-   grows taller than one screen */
+
 
 body.about-page {
   background-size: cover;

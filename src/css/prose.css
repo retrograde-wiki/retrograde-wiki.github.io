@@ -1,8 +1,3 @@
-/* Shared text styling for any markdown/content block. Add class="prose"
-   to a container and headings, lists, links, bold, blockquotes, and
-   images inside it all get this treatment — used by character pages,
-   monolith pages, lore articles, and zone pages alike. */
-
    .prose h1 {
      font-family: 'Tomorrow', Arial, sans-serif;
      font-size: 40px;
@@ -74,7 +69,8 @@
 }
 
 .prose a {
-    color: var(--accent2);
+    color: var(--accent);
+  text-decoration: none;
 
 }
 
@@ -121,9 +117,14 @@
 }
 
 .prose a {
-  color: var(--charcolor, var(--accent2));
-  text-decoration: underline;
+  color: var(--charcolor, var(--accent));
+  text-decoration: none;
   text-underline-offset: 3px;
+}
+
+.prose a:hover {
+    text-decoration: underline;
+
 }
 
 .prose blockquote {

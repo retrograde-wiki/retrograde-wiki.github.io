@@ -131,7 +131,6 @@
 
   .music-player-widget i { font-size: 11px; }
 
-  /* ---------- subject info column ---------- */
 
   .dossier-tag {
     display: inline-flex;
@@ -160,7 +159,6 @@
 
   .dossier-callsign b { color: var(--charcolor); }
 
-  /* stat strip — quick facts divided by hairlines */
 
   .stat-strip {
     display: flex;
@@ -254,7 +252,6 @@
     font-variant-numeric: tabular-nums;
   }
 
-  /* tag row */
 
   .tag-row {
     display: flex;
@@ -277,7 +274,6 @@
 
   .tag-chip i { font-size: 10px; }
 
-  /* pull quote */
 
   .dossier-quote {
     border-left: 3px solid var(--charcolor);
@@ -302,7 +298,6 @@
     color: var(--char-dim);
   }
 
-  /* ---------- prose sections ---------- */
 
   .dossier h2:first-child { margin-top: 0; }
 
@@ -413,7 +408,6 @@
     margin-right: 8px;
   }
 
-  /* relationships — side-by-side cards */
 
   .relationship-grid {
     display: grid;
@@ -468,7 +462,6 @@
     line-height: 1.55;
   }
 
-  /* secondary quotes list */
 
   .quotes-list {
     display: flex;
@@ -485,7 +478,7 @@
     padding-left: 14px;
   }
 
-  /* trivia */
+
 
   .trivia-list {
     list-style: none;
@@ -511,7 +504,7 @@
     font-size: 12px;
   }
 
-  /* service log */
+
 
   .service-log { max-width: 760px; }
 
@@ -548,7 +541,7 @@
   .log-status.is-terminated,
   .log-status.is-unverified { color: var(--char-dim); }
 
-  /* ---------- responsive ---------- */
+
 
   @media (max-width: 860px) {
     .dossier-body { grid-template-columns: 1fr; }

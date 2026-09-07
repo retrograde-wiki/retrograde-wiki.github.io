@@ -197,8 +197,8 @@ main.hero {
   font-size: 200px;
   line-height: 0.85;
   letter-spacing: -3px;
-  color: transparent;
-  -webkit-text-stroke: 3px var(--text);
+  color: var(--bg);
+  -webkit-text-stroke: 3px var(--accent);
 }
 
 .home-desc {
@@ -207,7 +207,7 @@ main.hero {
   line-height: 1.5;
   max-width: 420px;
   margin-top: 20px;
-  color: var(--text);
+  color: var(--accent2);
 }
 
 
@@ -580,7 +580,6 @@ footer {
     border: 1px solid var(--charcolor);
   }
 
-  /* ---------- subject info column ---------- */
 
   .dossier-tag {
     display: inline-flex;
@@ -609,7 +608,6 @@ footer {
 
   .dossier-callsign b { color: var(--charcolor); }
 
-  /* stat strip — quick facts divided by hairlines */
 
   .stat-strip {
     display: flex;
@@ -703,7 +701,6 @@ footer {
     font-variant-numeric: tabular-nums;
   }
 
-  /* tag row */
 
   .tag-row {
     display: flex;
@@ -726,7 +723,6 @@ footer {
 
   .tag-chip i { font-size: 10px; }
 
-  /* pull quote */
 
   .dossier-quote {
     border-left: 3px solid var(--charcolor);
@@ -751,7 +747,6 @@ footer {
     color: var(--char-dim);
   }
 
-  /* ---------- prose sections ---------- */
 
 
   .dossier .spoiler {
@@ -763,7 +758,6 @@ footer {
 
   .dossier .spoiler:hover { color: var(--bg); }
 
-  /* vice / weapon */
 
   .vice-section {
     margin-top: 20px;
@@ -834,7 +828,6 @@ footer {
     margin-right: 8px;
   }
 
-  /* relationships — side-by-side cards */
 
   .relationship-grid {
     display: grid;
@@ -889,7 +882,6 @@ footer {
     line-height: 1.55;
   }
 
-  /* secondary quotes list */
 
   .quotes-list {
     display: flex;
@@ -906,7 +898,6 @@ footer {
     padding-left: 14px;
   }
 
-  /* trivia */
 
   .trivia-list {
     list-style: none;
@@ -932,7 +923,6 @@ footer {
     font-size: 12px;
   }
 
-  /* service log */
 
   .service-log { max-width: 760px; }
 
@@ -969,7 +959,6 @@ footer {
   .log-status.is-terminated,
   .log-status.is-unverified { color: var(--char-dim); }
 
-  /* ---------- responsive ---------- */
 
   @media (max-width: 860px) {
     .dossier-body { grid-template-columns: 1fr; }
@@ -1003,12 +992,6 @@ footer {
   gap: 34px;
 }
 
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: var(--text);
-  opacity: 0.5;
-  margin-bottom: 4px;
-}
 
 .cg-title {
   font-family: 'Tomorrow', Arial, sans-serif;
@@ -1199,4 +1182,26 @@ footer {
   .header-player {
     display: none;
   }
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 12px 22px;
+  border: 1px solid var(--accent2);
+  color: var(--accent2);
+  font-family: 'Tomorrow', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.hero-cta:hover,
+.hero-cta:focus-visible {
+  background: var(--accent2);
+  color: var(--bg);
 }
