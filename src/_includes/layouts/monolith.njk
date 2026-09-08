@@ -1,59 +1,54 @@
 ---
 layout: layouts/base.njk
-bodyClass: dossier-page
-extraCss: /css/characters.css
+extraCss: /css/lore.css
 ---
-<main class="main-content">
-<h1 class="dossier-title">{{ title | upper | replace(" ", "<br>") | safe }}</h1>
+<article class="lore-article">
+  {% if image %}
+  <img src="{{ image }}" alt="{{ title }} logo" class="monolith-logo">
+  {% endif %}
 
-<div class="dossier-body">
-
-  <div class="dossier-portrait-col">
-    <div class="dossier-portrait">
-      <img src="{{ image }}" alt="{{ title }} logo">
+  {% set basicIcons = {
+    "ZONE": "fa-map-pin",
+    "INDUSTRY": "fa-industry",
+    "LEADERSHIP": "fa-user-tie",
+    "HEADQUARTERS": "fa-building"
+  } %}
+  <div class="zone-stat-strip">
+    {% for stat in basics %}
+    <div class="zone-stat">
+      <span class="zone-stat-label">
+        {% if basicIcons[stat.label] %}<i class="fa-solid {{ basicIcons[stat.label] }}"></i> {% endif %}{{ stat.label }}
+      </span>
+      <span class="zone-stat-value">{{ stat.value }}</span>
     </div>
+    {% endfor %}
   </div>
 
-  <div class="dossier-info">
-
-    {% set basicIcons = {
-      "ZONE": "fa-map-pin",
-      "INDUSTRY": "fa-industry",
-      "LEADERSHIP": "fa-user-tie",
-      "HEADQUARTERS": "fa-building"
-    } %}
-    <div class="stat-strip">
-      {% for stat in basics %}
-      <div class="stat-chip">
-        <span class="stat-label">
-          {% if basicIcons[stat.label] %}<i class="fa-solid {{ basicIcons[stat.label] }}"></i> {% endif %}{{ stat.label }}
-        </span>
-        <span class="stat-value">{{ stat.value }}</span>
-      </div>
-      {% endfor %}
-    </div>
-
+  <div class="prose">
     {% if employees %}
-    <span class="dossier-tag section-tag"><i class="fa-solid fa-id-badge"></i> NOTABLE EMPLOYEES</span>
-    <div class="relationship-grid">
+    <h2>Notable Employees</h2>
+    <ul>
       {% for emp in employees %}
-      <div class="relationship-card">
-        <div class="relationship-text">
-          <span class="relationship-name"><a href="{{ emp.page }}">{{ emp.name }}</a></span>
-        </div>
-      </div>
+      <li><a href="{{ emp.page }}">{{ emp.name }}</a></li>
       {% endfor %}
-    </div>
+    </ul>
     {% endif %}
 
     {% if spotifyTrack %}
-    <span class="dossier-tag section-tag"><i class="fa-solid fa-music"></i> AMBIENCE</span>
+    <h2>Ambience</h2>
     <iframe style="border-radius:8px" src="{{ spotifyTrack }}" width="100%" height="152" frameborder="0" allow="encrypted-media"></iframe>
     {% endif %}
 
-    <div class="dossier prose">
-      {{ content | safe }}
-    </div>
+    {{ content | safe }}
   </div>
-</div>
-</main>
+
+  {% if gallery %}
+  <div class="zone-gallery">
+    {% for shot in gallery %}
+    <a href="{{ shot.href or shot.src }}" target="_blank" rel="noopener" class="zone-gallery-item">
+      <img src="{{ shot.src }}" alt="{{ shot.alt or '' }}">
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>

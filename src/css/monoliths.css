@@ -15,12 +15,10 @@
 }
 
 .monolith-card-img {
-  aspect-ratio: 1;
-  background-color: var(--panel);
+  aspect-ratio: 2;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid var(--line);
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
@@ -31,8 +29,8 @@
 
 .monolith-card-title {
   font-family: 'Tomorrow', Arial, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 24px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--text);
@@ -45,13 +43,12 @@
 }
 
 
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: var(--text);
-  opacity: 0.5;
-  margin-bottom: 4px;
+.monolith-logo {
+  display: block;
+  max-height: 90px;
+  width: auto;
+  margin: 0 auto 48px;
 }
-
 .cg-title {
   font-family: 'Tomorrow', Arial, sans-serif;
   font-weight: 900;
@@ -61,4 +58,25 @@
   color: var(--text);
   opacity: 0.85;
   margin: 0;
+}
+
+
+.lore-card:hover,
+.lore-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--accent2);
+}
+
+.lore-card-icon {
+  font-size: 28px;
+  color: var(--accent2);
+}
+
+.lore-card-title {
+  font-family: 'Tomorrow', Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text);
+  text-align: center;
 }
