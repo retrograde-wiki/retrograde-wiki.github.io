@@ -1,7 +1,5 @@
 - move all lore over
-- button
 - add more to gallery
 - add a consistent favicon on every page
-- Set it up so 11ty autolinks pages together.
 
 - minecraft splashtext?

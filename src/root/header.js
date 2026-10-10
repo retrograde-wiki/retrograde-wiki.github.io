@@ -139,3 +139,10 @@ document.body.appendChild(playerScript);
     try { localStorage.setItem(KEY, select.value); } catch (e) {}
   });
 })();
+
+// Favicon for every page (change the path here, nowhere else)
+document.querySelectorAll('link[rel="icon"]').forEach(function (l) { l.remove(); });
+const favicon = document.createElement('link');
+favicon.rel = 'icon';
+favicon.href = '/im/favicon.png';
+document.head.appendChild(favicon);

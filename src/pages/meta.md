@@ -22,7 +22,8 @@ Retrograde began in March of 2023. Regretfully, in the early stages, a wiki was 
 
 The biggest current priority is adding the whopping 50 characters. References/art are planned for each, so along with finally writing it down, this will take time. But it will get done.
 
-Besides that, Adding zones, monoliths, etc. Just getting everything on here.
+Besides that, Adding zones, monoliths, etc. I'm in the process of just getting everything on here.
+
 ## CREDITS
 
 - Retrograde, as a Project and Website, was Written, designed and built by Retrograde on Neocities.
