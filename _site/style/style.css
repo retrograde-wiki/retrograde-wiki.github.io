@@ -1059,7 +1059,7 @@ header {
 }
 
 .navpage-content p {
- color: #ccc;
+ color: var(--text);
  line-height: 1.6;
  margin: 0;
 }
@@ -1322,7 +1322,6 @@ color: var(--white);
 
 .hp-theme { margin-left: 0; }
 
-/* ---- Sitemap page ---- */
 .sitemap-page {
   max-width: 1100px;
   margin: 120px auto 60px;
@@ -1392,7 +1391,7 @@ body header .header-links a.hp-sitemap {
   color: var(--text);
 }
 
-/* ---- 88x31 buttons ---- */
+
 .buttons {
   display: flex;
   flex-wrap: wrap;
@@ -1556,7 +1555,7 @@ body header .header-links a.hp-sitemap {
   .mono-row-meta { grid-column: 1 / -1; text-align: left; }
 }
 
-/* ---- Zone directory: two columns ---- */
+
 .zone-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1572,7 +1571,6 @@ body header .header-links a.hp-sitemap {
 
 .map-container img { cursor: zoom-in; }
 
-/* ---- Lore index categories ---- */
 .lore-cat-title { margin-top: 50px; }
 .lore-cat-title a { color: var(--text); }
 .lore-cat-title a:hover { color: var(--accent); }
@@ -1605,13 +1603,11 @@ body header .header-links a.hp-sitemap {
   color: var(--text-dim);
 }
 
-/* ---- Monolith pages: arc color is an accent, not the background ---- */
 .mono-page a { color: var(--charcolor); }
 .mono-page .lore-updated { color: var(--charcolor); }
 .mono-page .lore-toc { border-left-color: var(--charcolor); }
 .mono-page .lore-toc-title { color: var(--charcolor); }
 
-/* ---- Organizations hub + lists without a number ---- */
 .mono-row.hub { grid-template-columns: 1fr; }
 .mono-row.hub .mono-row-title { font-size: 56px; }
 .mono-row.no-num { grid-template-columns: 220px 1fr 220px; }
@@ -1620,3 +1616,72 @@ body header .header-links a.hp-sitemap {
   .mono-row.no-num { grid-template-columns: 1fr; }
   .mono-row.hub .mono-row-title { font-size: 40px; }
 }
+
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12vh 20px 20px;
+  box-sizing: border-box;
+  background: color-mix(in srgb, var(--overlay) 85%, transparent);
+}
+.search-overlay[hidden] { display: none; }
+
+.search-box { width: 100%; max-width: 640px; }
+
+.search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px 18px;
+  font-family: inherit;
+  font-size: 22px;
+  color: var(--text);
+  background: var(--panel);
+  border: 2px solid var(--accent);
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-results {
+  max-height: 55vh;
+  overflow-y: auto;
+  margin-top: 8px;
+  background: var(--bg);
+  border-radius: 4px;
+}
+
+.search-result {
+  display: block;
+  padding: 12px 18px;
+  color: var(--text);
+  border-bottom: 1px solid var(--line);
+}
+.search-result.active { background: var(--panel); }
+
+.search-result-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.search-result-title { font-size: 20px; font-weight: 600; }
+.search-result-type { font-size: 14px; color: var(--text-dim); }
+
+.search-result-snippet {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--text-dim);
+}
+
+.search-result mark {
+  color: var(--accent);
+  background: none;
+  font-weight: 600;
+}
+
+.search-empty { padding: 16px 18px; color: var(--text-dim); }
+.search-hint { margin-top: 8px; font-size: 14px; color: var(--text-dim); text-align: center; }

@@ -18,6 +18,7 @@ const headerHTML = `
 
     <h3><a href="/gallery.html">GALLERY</a></h3>
     <h3><a href="/meta.html">META</a></h3>
+    <h3><a href="#" id="hp-search" class="hp-btn hp-sitemap hp-search" title="Search (Ctrl+K)"><i class="fa-solid fa-magnifying-glass"></i></a></h3>
     <h3><a href="/sitemap.html" class="hp-btn hp-sitemap" title="Sitemap"><i class="fa-solid fa-signs-post"></i></a></h3>
     <h3><div class="hp-theme" title="Theme">
       <div class="hp-btn"><i class="fa-solid fa-palette"></i></div>
@@ -139,3 +140,13 @@ document.body.appendChild(playerScript);
     try { localStorage.setItem(KEY, select.value); } catch (e) {}
   });
 })();
+
+// Favicon for every page (change the path here, nowhere else)
+const favicon = document.createElement('link');
+favicon.rel = 'icon';
+favicon.href = '/im/favicon.png';
+document.head.appendChild(favicon);
+
+const searchScript = document.createElement('script');
+searchScript.src = '/style/search.js';
+document.body.appendChild(searchScript);

@@ -90,6 +90,10 @@ A build step in `eleventy.config.js` (search "Auto-linking") links the first men
 - Music: song list is at the top of `style/player.js`. mp3s are on File Garden.
 - Sitemap builds itself. Old html pages are found by scanning `src/root`; add `<meta name="robots" content="noindex">` to hide one.
 
+## Search
+
+Search index is built by pages/search-index.11ty.js, the script is style/search.js, and search: false hides a page.
+
 ## Deploying
 
 Upload the contents of `_site/` to Neocities.

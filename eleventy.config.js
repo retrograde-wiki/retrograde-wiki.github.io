@@ -130,7 +130,7 @@ export default function (eleventyConfig) {
   }));
 
   return {
-    templateFormats: ["njk", "md"],
+    templateFormats: ["njk", "md", "11ty.js"],
     dir: { input: "src", output: "_site" },
   };
 }
