@@ -90,7 +90,7 @@ export default function (eleventyConfig) {
       });
     }
 
-    $(".lore-section, .mono-body, .zone-body").each(function () {
+    $(".lore-section, .mono-body, .zone-body, .timeline").each(function () {
       $(this).find("a[href]").each(function () { linked.add($(this).attr("href")); });
       walk(this);
     });

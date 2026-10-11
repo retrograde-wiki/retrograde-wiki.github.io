@@ -2,7 +2,7 @@ import * as cheerio from "cheerio";
 
 // Hand-written pages that aren't Eleventy templates (add more here by hand)
 const EXTRAS = [
-  { title: "Characters", url: "/characters.html", type: "Page", text: "" },
+  // { title: "Characters", url: "/characters.html", type: "Page", text: "" },
 ];
 
 const TYPES = [
@@ -20,6 +20,12 @@ function toText(html) {
   const $ = cheerio.load(html || "");
   $("script, style, audio").remove();
   return $.root().text().replace(/\s+/g, " ").trim();
+}
+
+function eraText(eras) {
+  return (eras || []).map((e) => [e.name, e.subtitle]
+    .concat((e.events || []).map((v) => [v.when, v.title, v.text].filter(Boolean).join(" ")))
+    .filter(Boolean).join(" ")).join(" ");
 }
 
 export default class {
@@ -46,7 +52,7 @@ export default class {
         type,
         aliases: d.aliases || [],
         description: d.description || d.subtitle || "",
-        text: toText(item.templateContent).slice(0, 30000),
+        text: (toText(item.templateContent) + " " + eraText(d.eras)).slice(0, 30000),
       });
     }
 

@@ -83,7 +83,7 @@ document.head.appendChild(fontLink);
 })();
 
 document.addEventListener('click', function (e) {
-  var img = e.target.closest('.gallery img, .art-grid img, .map-container img');
+  var img = e.target.closest('.gallery img, .art-grid img, .map-container img, .mono-images img');
   if (!img) return;
 
   var box = document.createElement('div');

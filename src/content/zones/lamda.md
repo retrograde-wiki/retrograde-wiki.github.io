@@ -2,7 +2,7 @@
 hidden: false
 title: Lamda
 aliases: [Lamda, Lamdan, Lamdans]
-description: An affluent, carefully maintained Zone known for its garden cities and Art Deco-inspired architecture.
+description: An affluent, carefully maintained Zone known for its garden cities and Art Deco-inspired architecture. Controlled by the healthcare Monolith, Lamda.
 number: 11
 flag: /im/placeholder.png
 art: /im/placeholder.png
@@ -28,15 +28,15 @@ Lamda is a densely populated Zone owned and operated by **BioMedica**. It is kno
 
 The Zone is home to medical professionals, researchers, corporate employees, retirees, and wealthy residents, alongside the service workers who keep its cities running. Lamda has a reputation for being comfortable, expensive, sheltered, and somewhat snobbish.
 
-Healthcare is highly accessible throughout the Zone, and BioMedica's influence extends into much of everyday life. Its residents benefit from reliable public services and well-maintained surroundings, though this comfort comes with a distinctly corporate atmosphere.
+Lamda's residents benefit from reliable public services and well-maintained surroundings, though this comfort comes with a distinctly corporate and 'old' atmosphere.
 
 ## GEOGRAPHY & INFRASTRUCTURE
 
-Lamda is a relatively mild, rainy Zone with a naturally green landscape. Most developed areas consist of cities and surrounding residential neighborhoods, with gardens, parks, and landscaped streets incorporated throughout.
+Lamda is a relatively mild, rainy Zone with a very green landscape. Most developed areas consist of cities and surrounding residential neighborhoods, with gardens, parks, and landscaped streets incorporated throughout.
 
-Much of modern Lamda was constructed or redesigned by BioMedica after the collapse of the previous Monolith. The resulting cities follow a planned garden-city layout, with pedestrian-friendly streets, plazas, courtyards, and covered walkways.
+Much of modern Lamda was constructed or redesigned by BioMedica after the collapse of the previous Monolith. The resulting cities follow a garden-city layout with pedestrian-friendly streets, plazas, courtyards, and nature covered walkways.
 
-Architecture combines **Art Deco-inspired design with futuristic materials and construction**. Older and wealthier areas tend to be more ornate, while newer buildings are generally cleaner and more restrained.
+Architecture is distinctly older looking then other zones- Specifically, resembling real world Art Deco constructions. Older and wealthier areas tend to be more ornate, while newer buildings are generally cleaner and more restrained.
 
 Cars and buses are available, but walking is a common way to get around. Public facilities are regularly maintained, and security cameras and other monitoring systems are widespread, usually blending into the surrounding architecture.
 
@@ -46,9 +46,9 @@ Cars and buses are available, but walking is a common way to get around. Public 
 This section is not required reading, and is mainly here for those curious.
 </div>
 
-Lamda was once a relatively ordinary green region whose economy relied heavily on agriculture, particularly vegetable production. Its former Monolith specialized in growing and distributing vegetables, but gradually lost ground as the Food Monolith's mushroom-based production displaced traditional agricultural supply chains.
+Lamda was once a relatively ordinary green region whose economy relied heavily on agriculture, particularly vegetable production. Its former Monolith, Greenthumb, specialized in growing and distributing vegetables, but gradually lost ground as Harvestons production displaced traditional agricultural supply chains.
 
-Following a major corporate crisis, the vegetable Monolith became defunct. BioMedica acquired the Zone and began a major redevelopment of its cities, turning Lamda into a headquarters and residential center for doctors, researchers, executives, and other skilled professionals.
+Following a major crisis, the Greenthumb became defunct, slipping off into mere Corporation territory. BioMedica acquired the Zone and began a major redevelopment of its cities, turning Lamda into a headquarters and residential center for doctors, researchers, executives, and other skilled professionals.
 
 As BioMedica expanded its retirement services, Lamda also became a major destination for retirees from across Zenith. Retirement communities and elderly care are now important parts of the Zone's population and economy.
 
@@ -58,29 +58,27 @@ Lamdan culture places considerable value on **education, professional achievemen
 
 Residents are commonly stereotyped as polite, sheltered, health-conscious, and out of touch with life in poorer Zones. Lamda also has a reputation for being humorless, although its humor tends to be dry, understated, and sarcastic.
 
-Professional competence carries considerable prestige. Doctors, researchers, engineers, academics, and other skilled workers are generally respected, and career or academic achievements can be a source of personal and family pride.
+Professional competence carries considerable prestige. Doctors, researchers, and other skilled workers are generally respected, and career or academic achievements can be a source of personal and family pride.
 
 Clubs, societies, and neighborhood organizations are popular ways to socialize. Many residents belong to several groups at once, ranging from professional associations to hobby clubs and recreational societies.
 
 ### Fashion
 
-Lamdan fashion tends to be affluent, professional, and coordinated. Tailored coats, trousers, dresses, knitwear, polished shoes, and understated accessories are common.
-
-Art Deco influences appear in geometric patterns, jewelry, and formal clothing. Expensive or well-made garments often signal social standing without relying on particularly flashy designs.
+Lamdan fashion tends to be affluent, professional, and coordinated.Expensive or well-made garments often signal social standing without relying on particularly flashy designs.
 
 ### Food & Dining
 
-Restaurants, cafes, bakeries, and other dining establishments are central to Lamdan social life. Bread, pastries, soups, sausages, and baked dishes are common, alongside more elaborate local and international cuisine.
-
-Health-conscious food and specialized diets are also popular, reflecting BioMedica's influence, although Lamdan cuisine is not exclusively focused on health.
+Bread, pastries, soups, sausages, and baked dishes are common, alongside more elaborate local cuisine.
 
 Going out to eat is a common way to socialize. Cafes and restaurants are used for dates, meetings, family gatherings, and casual time with friends.
 
 ### Music & Recreation
 
-Lamda has a strong classical and orchestral music tradition. Concerts, chamber performances, and formal musical events are common, while jazz, lounge music, piano performances, and acoustic acts are often heard in cafes and restaurants.
+Lamda has a strong classical and orchestral music tradition. Specifically jazz, lounge music, piano performances, and acoustic acts.
 
-Organized hobbies are popular throughout the Zone. Gardening, crafts, book groups, music societies, and recreational clubs provide regular social outlets. Retirement communities contribute heavily to this culture, with many activities originally associated with older residents becoming popular across the wider population.
+Organized hobbies are popular throughout the Zone. Gardening, crafts, book groups, music societies, and recreational clubs provide regular social outlets. 
+
+Retirement communities contribute ***heavily*** to this culture, with many activities originally associated with older residents becoming popular across the wider population.
 
 Chess is also well established in Lamda, which occasionally hosts notable competitions and has helped give the Zone a reputation for the game.
 
@@ -94,17 +92,13 @@ BioMedica also hosts medical conventions, research showcases, and corporate cele
 
 Lamdan speech is generally considered close to standard Zenithan, though residents have a reputation for speaking more formally and politely than people from some other Zones.
 
-Humor is often dry or understated, and sarcasm is common. Outsiders sometimes interpret this reserved style as a lack of humor.
+Humor is often dry or understated with lots of sarcasm sprinkled throughout. Outsiders sometimes interpret their reserved style as a lack of humor.
 
 ## DAILY LIFE
 
-Most Lamdans live in comfortable apartment complexes or planned residential neighborhoods. Daily life often revolves around work, shopping, dining, clubs, and community activities.
+Most Lamdans live in comfortable apartment complexes or planned residential neighborhoods. Evenings are generally quiet.
 
-Commercial districts contain boutiques, department stores, markets, cafes, and restaurants. Parks and gardens are integrated into everyday life, making walks through landscaped streets and public spaces a routine part of living in the Zone.
-
-Evenings are generally quiet. Restaurants and cafes remain active, but private dinners, club meetings, and small social gatherings are more common than a particularly prominent nightlife scene.
-
-Healthcare and public amenities are reliable. Bathrooms, water fountains, hydration stations, covered walkways, and other municipal facilities are generally well maintained.
+Restaurants and cafes are popular throughout the zone, and private dinners, club meetings, and smaller social gatherings are vastly more common than any sort of nightlife scene.
 
 Lamda is relatively affluent, and residents often have more opportunities to move between jobs, pursue education, and access services than people in poorer Zones. BioMedica employees and retirees may have particular reasons to remain in the Zone for long periods.
 
@@ -124,7 +118,7 @@ A large area dedicated to retirement communities, assisted living, elderly servi
 
 ### Resort District
 
-Contains hotels, resorts, spas, and vacation facilities. Tourism is a secondary part of Lamda's economy, attracting visitors interested in its gardens, healthcare, and comfortable surroundings.
+Tourism is a secondary part of Lamda's economy, attracting visitors interested in its gardens, healthcare, and comfortable surroundings.
 
 ### Residential Districts
 

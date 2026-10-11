@@ -1,5 +1,5 @@
 - move all lore over
 - add more to gallery
 - add a consistent favicon on every page
-
+- MAKE CHARACTERS PAGE NOT SEARCHABLE
 - minecraft splashtext?

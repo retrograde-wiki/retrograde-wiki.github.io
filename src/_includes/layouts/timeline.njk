@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  {% if hidden %}<meta name="robots" content="noindex">{% endif %}
+  <link rel="stylesheet" href="/style/style.css">
+  <script src="/style/hover.js"></script>
+  <title>RETROGRADE - {{ title | upper }}</title>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <script src="/header.js"></script>
+
+  <div class="tl-page">
+    <div class="lore-header">
+      <h1 class="lore-title">{{ title }}</h1>
+      {% if subtitle %}<p class="intro-subtitle">{{ subtitle }}</p>{% endif %}
+      {% if updated %}<p class="lore-updated">Last updated: {{ updated }}</p>{% endif %}
+    </div>
+
+    {{ content | safe }}
+
+
+    <div class="timeline">
+      {% for era in eras %}
+      <div class="tl-era" id="{{ era.name | slugify }}">
+        <h2 class="tl-era-title">{{ era.name }}</h2>
+      </div>
+
+      {% for ev in era.events %}
+      {% set side = ev.side or ('left' if loop.index0 % 2 == 0 else 'right') %}
+      <div class="tl-event {{ side }}">
+        <div class="tl-card">
+          <div class="tl-when">{{ ev.when }}</div>
+          {% if ev.title %}<div class="tl-title">{{ ev.title }}</div>{% endif %}
+          {% if ev.text %}<p class="tl-text">{{ ev.text }}</p>{% endif %}
+          {% if ev.image %}<img src="{{ ev.image }}" alt="{{ ev.title or ev.when }}" loading="lazy">{% endif %}
+          {% if ev.link %}<a class="tl-link" href="{{ ev.link }}">{{ ev.linkLabel or "Read more" }}</a>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>

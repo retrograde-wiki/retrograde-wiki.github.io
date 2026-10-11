@@ -2,7 +2,7 @@
 hidden: false
 title: Rho
 aliases: [Rho, Rhoan, Rhoans]
-description: A massive, sparse and hot zone.
+description: A vast, sparsely populated badlands and canyons with a Wild West flavor. Controlled by AquaFlo, the industrial water producing Monolith.
 number: 17
 flag: /im/art/.png
 art: /im/art/rho.png
