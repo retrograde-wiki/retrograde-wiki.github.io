@@ -1,4 +1,3 @@
-// Turn each ### heading (and everything under it) into a closed toggle
 document.querySelectorAll('.zone-body h3').forEach(function (h) {
   const details = document.createElement('details');
   const summary = document.createElement('summary');

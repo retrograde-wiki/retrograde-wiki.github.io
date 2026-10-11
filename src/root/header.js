@@ -113,7 +113,7 @@ document.body.appendChild(playerScript);
   var THEMES = [
     { id: 'dark-1',  name: 'Classic Dark' },
     { id: 'dark-2', name: 'Retro Dark' },
-    { id: 'light-1', name: 'Classic Dark' },
+    { id: 'light-1', name: 'Classic Light' },
     { id: 'light-2', name: 'Retro Light' }
   ];
   var KEY = 'retrograde-theme';
@@ -141,7 +141,6 @@ document.body.appendChild(playerScript);
   });
 })();
 
-// Favicon for every page (change the path here, nowhere else)
 const favicon = document.createElement('link');
 favicon.rel = 'icon';
 favicon.href = '/im/favicon.png';

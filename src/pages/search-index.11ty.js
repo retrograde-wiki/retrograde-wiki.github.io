@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 
-// Hand-written pages that aren't Eleventy templates (add more here by hand)
 const EXTRAS = [
+  // Pages that aren't Eleventy templates (characters is hidden for now)
   // { title: "Characters", url: "/characters.html", type: "Page", text: "" },
 ];
 

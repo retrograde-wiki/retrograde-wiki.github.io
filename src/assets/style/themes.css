@@ -49,18 +49,18 @@
 }
 
 [data-theme="dark-2"] {
-  --bg: #11100e;
-  --bg2: #191714;
+  --bg: #1a1615;
+  --bg2: #282121;
   --text: #f1eadc;
-  --text-dim: #8d8679;
+  --text-dim: #a1897f;
   --line: #4a453d;
-  --panel: #25221d;
+  --panel: #302927;
   --panel2: #746d60;
   --surface: rgba(17, 16, 14, 0.6);
-  --overlay: #080706;
+  --overlay: #181413;
 
   --accent: #e4543b;
-  --accent2: #42a9b5;
+  --accent2: #4eafba;
   --accent3: #e0b83f;
   --on-accent: #ffffff;
 
