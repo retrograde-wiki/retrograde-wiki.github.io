@@ -29,7 +29,7 @@ Eta is a large coastal Zone known for its beautiful beaches and nightlife scene.
 
 Approximately thirty years ago, Palisade defeated Plastigen in a corporate war and took control of Eta. The takeover was followed by mass killings, widespread redevelopment, unemployment, and a violent uprising against the new government.
 
-Modern Eta is significantly more expensive and heavily regulated than it was under Plastigen. Despite this, many aspects of it remain through the Etans stubborn and rebellious culture.
+Modern Eta is significantly more expensive and heavily regulated than it was under Plastigen. Despite this, many aspects of its former culture remain through the Etans' stubborn and rebellious attitudes.
 
 ## GEOGRAPHY & INFRASTRUCTURE
 
@@ -37,7 +37,7 @@ Eta is a mostly flat coastal region with a large urban population concentrated a
 
 The climate is warm and humid year-round, with a pronounced rainy season during the summer. Vegetation is more lush around developed areas.
 
-The ocean surrounding Eta, like much of Zenith, is mildly toxic but considered safe enough for swimming. 
+The ocean surrounding Eta, like much of Zenith, is mildly toxic but considered safe enough for swimming.
 
 Much of Eta's infrastructure predates Palisade. The company repurposed many former Plastigen factories and warehouses, while other areas were demolished and rebuilt.
 
@@ -45,33 +45,29 @@ Palisade security infrastructure is highly visible throughout the Zone. Cameras,
 
 ## HISTORY
 
-<aside>
-This section is not required reading, and is mainly here for those curious.
-</aside>
+Palisade's history in Eta began with its corporate war against **Plastigen**, the former Monolith controlling the Zone.
 
-Eta was originally controlled by **Plastigen**. Plastigen was a plastics manufacturer and one of the weaker-performing Monoliths, its technology had fallen behind newer materials and manufacturing techniques. It was heavily polluting and environmentally destructive, but was relatively hands-off and had an okay enough relationship with the Etans. 
+Plastigen manufactured plastics using technology that had fallen behind newer materials and manufacturing techniques. Despite its environmentally destructive industry, it maintained relatively permissive laws and generally avoided interfering with private life. Eta developed a distinctive culture centered around nightlife, entertainment, recreational drugs, and unusual fashion.
 
-Palisade eventually defeated Plastigen in a corporate war and took control of Eta. Plastigen was completely dissolved, and its employees were deliberately killed. Palisade attempted to conceal the killings and presented the takeover as the removal of problematic elements from the Zone.
+Approximately thirty years ago, Palisade defeated Plastigen and seized control of Eta. Plastigen was dissolved, and its employees were all burnt and killed. Palisade concealed the killings and presented the takeover as the removal of problematic elements from the Zone.
 
-Palisade immediately began restructuring Eta around its security industry. Large portions of the Zone were demolished, renovated, or repurposed. The economic disruption caused mass unemployment and displaced many residents.
+Following the takeover, Palisade demolished and rebuilt parts of  Eta around its industries. It also expanded more into Tourism, opening **Paliland**, the largest amusement park in the world. 
 
-Rebellion began within days of the takeover, and quickly escalated into a full on uprising. Palisade killed and imprisoned large numbers of people during the suppression.
+Resistance began within months. Protests, strikes, and civil disobedience escalated into an extended urban uprising known as the **Etan Revolt**. Palisade killed and imprisoned large numbers of people while suppressing the revolt. Although the major uprising eventually ended, resistance continued through smaller underground movements, some of which developed into smuggling networks and nightlife syndicates.
 
-The major uprising eventually ended, but smaller forms of resistance continued. Many former resistance groups later became involved in smuggling amd  organized crime- All which are quickly snuffed out by Palisade.
-
-Palisade later encouraged wealthy residents and skilled workers to return to Eta. Redevelopment and tourism increased living costs significantly, causing many poorer residents to leave.
+In the following decades, Palisade encouraged wealthy residents and tourists to return to Eta. Redevelopment revitalized parts of the Zone but also raised living costs and displaced poorer residents. 
 
 ## CULTURE
 
 ### Etan Appearance
 
-Etans are ***generally*** somewhat shorter and commonly have straight hair, lighter skin tones, and relatively frequent red/auburn or blonde hair.
+Etans are ***generally*** somewhat shorter and commonly have straight hair, lighter skin tones, and red/auburn, blonde hair, or brown hair with reddish hues.
 
-Narrower facial structures, prominent features, and irregular teeth are relatively common. 
+Narrower facial structures, pointy and 'ratlike' features, and irregular teeth are stereotypical and common amongst Etans.
 
-Skin blemishes, scarring, freckles, and other visible imperfections are also common.
+Skin blemishes, scarring, freckles, and other visible imperfections are also more common.
 
-Etans are stereotypically considered unattractive by people from other Zones. 
+Etans are stereotypically considered unattractive by people from other Zones.
 
 ### Fashion
 
@@ -79,12 +75,11 @@ Eta is known for flashy and expressive fashion, particularly clothing associated
 
 Bright colors, bold patterns, jewelry, dramatic accessories, revealing clothing, and unusual combinations are common. Older styles from Eta's pre-Palisade nightlife culture remain influential.
 
-Fashion is also used as a form of cultural expression and, at times, deliberate opposition to Palisade and Corporate attempt to regulate behavior. 
+Fashion is also used as a form of cultural expression and, at times, deliberate opposition to Palisade and corporate attempts to regulate behavior.
 
 ### Music
 
-Eta has a strong association with 'euro'-rave *(europe doesnt exist in retrograde but its for comparison)* and electronic music.
-
+Eta has a strong association with 'euro'-rave *(Europe doesn't exist in Retrograde, but it's for comparison)* and electronic music.
 
 ### Food & Drink
 
@@ -94,14 +89,13 @@ It tends to favor casual, fried, sauced, and seafood-based dishes. Sweet and sav
 
 Fruit, jams, mayonnaise-like sauces, fried seafood, pasta, and other ingredients are frequently combined in unconventional ways. Brightly colored and heavily sweetened drinks are also popular, particularly alongside late-night and beach food.
 
-
 ### Sports & Festivals
 
-Beach sports are popular in Eta. 
+Beach sports are popular in Eta.
 
-The Zone also hosts commercial festivals such as parades, or theme-park celebrations. 
+The Zone also hosts commercial festivals such as parades or theme-park celebrations.
 
-Large rave festivals also continue to occur, but usually stay underground due to Palisade restrictions.
+Large rave festivals continue to occur, but usually stay underground due to Palisade restrictions.
 
 ### Local Speech
 
@@ -131,17 +125,16 @@ Eta has one of the most distinctive accents on Zenith and is known for having an
 
 The following are offensive terms used against Etans:
 
-- **Nightcrawler** - referring to their nightlife culture.
-- **Backroomer** - implying that Etans are secretive or involved in underground businesses and organized crime.
-- **Bleachling** - implying that Palisade has stripped them of their culture.
+- **Nightcrawler** - Referring to their nightlife culture and 'criminal activity'.
+- **Backroomer** - Implying that Etans are involved in underground businesses and organized crime.
 
 ## DAILY LIFE
 
-Eta has a relatively laid-back social culture. People commonly spend their free time at beaches, restaurants, malls, arcades, bars, parks, and entertainment districts. 
+Eta has a relatively laid-back social culture. People commonly spend their free time at large malls and entertainment venues.
 
-And that's not limited to the rich, Poorer residents also regularly attend parties, visit public spaces, and participate in nightlife using cheaper or informal venues.
+This isn't limited to the rich, either. Poorer residents also regularly attend parties and participate in nightlife using cheaper or informal venues.
 
-Palisade's restrictions have reduced the amount of legitimate nightlife available. Many businesses operate under tightly controlled hours, while underground parties and venues provide alternatives for those willing.
+Palisade's restrictions have reduced the amount of legitimate venues available. Many businesses operate under tightly controlled hours, while underground venues provide alternatives for those willing to take the risk.s
 
 ## SUBZONES / DISTRICTS
 
@@ -155,8 +148,7 @@ The main tourist and recreational area along Eta's coastline. It contains beache
 
 ### Industrial District
 
-An inland industrial area containing factories, warehouses, utilities, logistics infrastructure, and major Palisade facilities. 
-Much of its infrastructure was originally built by Plastigen and later repurposed.
+An inland industrial area containing factories, warehouses, utilities, logistics infrastructure, and major Palisade facilities. Much of its infrastructure was originally built by Plastigen and later repurposed.
 
 ### Paliland
 
@@ -169,22 +161,21 @@ The district contains hotels, restaurants, shops, entertainment venues, transpor
 - **Sunburst Boardwalk** - A famous coastal destination containing beaches, shops, restaurants, entertainment, and other tourist attractions.
 - **Marquee District** - A former nightlife district heavily damaged during the takeover and uprising. Large portions remain abandoned and are now used for underground parties, illegal venues, smuggling, and other criminal activity.
 - **MetaMall** - A huge shopping and entertainment complex.
-- **Palisade Complex** - Palisade's primary facility. A large walled off area of land containing offices, warehouses, and other facilities.
+- **Palisade Complex** - Palisade's primary facility, a large walled-off area containing offices, warehouses, and other facilities.
 - **Paliland** - Eta's enormous corporate-sponsored theme-park resort.
 
-## ECONOMY
+## CREATING AN ETAN CHARACTER
 
-Eta's modern economy is mainly influenced by **Palisade's defense and security industry**. The Monolith manufactures and supplies gavel equipment, weapons, surveillance systems, alarms, communications equipment, and other security products for use throughout Zenith.
+Eta's population includes everyone from tourism and entertainment workers to independent business owners to- yes of course- criminals. An Etan might run a beachside restaurant, perform at clubs, participate in underground fight clubs, or simply live an ordinary life in the Zone.
 
-Tourism and hospitality are also major industries. Hotels, restaurants, retail, entertainment, shopping, and other tourist services employ large numbers of residents.
+Characters may have grown up in Eta before Palisade's takeover, though if theyre younger then thirty they've likely lived their entire lives under its control. 
 
-Eta was considerably cheaper before the Palisade takeover. Redevelopment, tourism, and the attraction of wealthier residents have substantially increased living costs.
+Someone who grew up in Eta may be accustomed to its expressive fashion, distinctive slang, and laid-back social culture. However, life under Palisade has made open rebellion increasingly risky, and not everyone can afford to resist. 
 
-Most modern Etans are middle or high-middle class, although significant wealth inequality remains.
-
+Some Etans find ways to preserve their culture underground, while others have adapted to the new order or feel little connection to the Zone's past.
 
 ## TRIVIA
 
-- Palm Plaza has remained a major social destination across multiple generations.
+- MetaMall has remained a major social destination across multiple generations.
 - Paliland's giant Zenith globe is deliberately inaccurate and primarily decorative.
-- Paliland completely omits the Eta Revolt from its presentation of Eta's history.
+- Paliland completely omits the Eta Revolt from its presentation of Eta's history. Obviously

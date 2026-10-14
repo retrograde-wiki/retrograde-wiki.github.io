@@ -1603,18 +1603,33 @@ body header .header-links a.hp-sitemap {
   color: var(--text-dim);
 }
 
-.mono-page a { color: var(--charcolor); }
-.mono-page .lore-updated { color: var(--charcolor); }
-.mono-page .lore-toc { border-left-color: var(--charcolor); }
-.mono-page .lore-toc-title { color: var(--charcolor); }
+.mono-page .lore-updated { 
+  color: var(--charcolor); 
+}
+.mono-page .lore-toc { 
+  border-left-color: var(--charcolor); 
+}
+.mono-page .lore-toc-title { 
+  color: var(--charcolor); 
+}
 
-.mono-row.hub { grid-template-columns: 1fr; }
-.mono-row.hub .mono-row-title { font-size: 56px; }
-.mono-row.no-num { grid-template-columns: 220px 1fr 220px; }
+.mono-row.hub { 
+  grid-template-columns: 1fr; 
+}
+.mono-row.hub .mono-row-title { 
+  font-size: 56px; 
+}
+.mono-row.no-num { 
+  grid-template-columns: 220px 1fr 220px; 
+}
 
 @media (max-width: 900px) {
-  .mono-row.no-num { grid-template-columns: 1fr; }
-  .mono-row.hub .mono-row-title { font-size: 40px; }
+  .mono-row.no-num { 
+    grid-template-columns: 1fr; 
+  }
+  .mono-row.hub .mono-row-title { 
+    font-size: 40px; 
+  }
 }
 
 .search-overlay {

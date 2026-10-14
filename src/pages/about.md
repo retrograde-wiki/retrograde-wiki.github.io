@@ -16,7 +16,7 @@ Zenith is divided into **24 Zones**, large protected territories where most of h
 
 Zenith is highly advanced, but its design and everyday use often resemble older technology. Physical media, cartridges, specialized computers, and chunky personal devices remain common alongside highly advanced infrastructure.
 
-*For more information on Zenith, check* [Zenith](/) 
+*For more information on Zenith, check* [Zenith](/lore/zenith.html) 
 
 ## The Monoliths
 
@@ -28,7 +28,7 @@ Though not elected, and each Monolith is ruled by its own leadership.
 
 The Monoliths compete with one another, but they also depend heavily on one another. Together, they form **The Conglomerate**, the collective government in a shaky alliance, responsible for matters affecting all of Zenith.
 
-*For a list of Monoliths check Organizations* 
+*For a list of Monoliths check [Monoliths](/monoliths.html) * 
 
 ## Life on Zenith
 
@@ -38,7 +38,6 @@ They go to school, work, shop, eat, travel, use the internet, and live in cities
 
 Life, however, varies greatly depending on where someone lives and how much money they have. Wealthier people have access to better housing, food, education, healthcare, and employment, while poorer people may live in overcrowded areas with fewer opportunities.
 
-If you have a specific question about Zenith’s daily life, its likely answered in Society 
 
 ## Fixers
 
@@ -57,7 +56,7 @@ Signatures are extraordinarily powerful anomalous weapons that bind themselves t
 A Signature grants its wielder unusual abilities, making its users exceptionally powerful and often dangerous.
 
 Very little is known about where Signatures came from or why they choose the people they do.
-*For more information, refer to Signatures* 
+*For more information, refer to [Signatures](/lore/signatures.html)* 
 
 ## Project Identity
 
@@ -74,8 +73,3 @@ All in all, It can be about whatever you make it to be.
 
 But if you want more of an answer, its about people learning to thrive in a world where every aspect of reality wants you dead.
 
-## Where do I go next?
-
-To see a list of Zones, check ZONES 
-
-And to read random worldbuilding bits about the general functioning and society of Zenith, check Society

@@ -23,7 +23,7 @@ There's no real limit to what a Fixer can be hired to do. Some specialize in a p
 - **Runners:** Moving illegal or restricted cargo between Zones, often through the Pale.
 - **Guards:** Protecting people, property, or important cargo.
 - **Hunters:** Tracking down wanted or missing people.
-- **Ghosts:** Finding information, uncovering secrets, or locating people who don't want to be found.
+- **Ghosts:** Finding information, uncovering secrets, or locating people.
 - **Saboteurs:** Disrupting businesses, damaging property, or getting in the way of a competitor.
 - **Cleaners:** Getting rid of specific targets, usually for criminal or political clients.
 - **Mechanics:** Repairing equipment, modifying technology, or dealing with systems other people can't figure out.

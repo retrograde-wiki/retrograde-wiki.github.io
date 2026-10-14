@@ -11,5 +11,7 @@ images:
     title: Apartment Design Exploration
   - src: /im/art/rho.png
     title: Zone 17 Rho
+  - src: /im/art/concept.png
+    title: Art direction concept
 
 ---

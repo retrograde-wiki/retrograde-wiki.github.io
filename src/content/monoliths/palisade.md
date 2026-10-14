@@ -14,41 +14,26 @@ hidden: false
 
 ## OVERVIEW
 
-**Palisade** is the Monolith responsible for defense and security infrastructure across Zenith. It manufactures and supplies weapons, Gavel equipment, surveillance systems, alarms, communications equipment, and other security products used throughout the Zones.
+**Palisade** is the Monolith responsible for defense and security infrastructure across Zenith. It manufactures and weapons and security products used throughout the Zones.
 
-Palisade works closely with other Monoliths and corporations, providing the equipment and expertise needed to secure their territories, facilities, and operations. Its products are known for their quality, and its services remain widely used despite its reputation for brutality.
+Palisade works closely with other Monoliths and corporations, providing the equipment and expertise needed to secure their territories, facilities, and operations. It heavily contributes to the Conglomerate, supplying the Gavel with weapons and tools. Its products are known for their quality, and its services remain widely used despite its reputation for brutality.
 
-The company believes that a stable society requires strict laws, effective enforcement, and the suppression of threats before they can cause widespread harm. Palisade's approach to security is exceptionally harsh, and its methods are often considered excessive or cruel. The company prioritizes results over public approval, pointing to low crime rates in areas under its protection as evidence of its effectiveness.
+The company believes that a stable society requires strict laws, effective enforcement, and the suppression of threats and negative ideas. Palisade's approach to security is exceptionally harsh, and its methods are often considered excessive or cruel. The company prioritizes results over public approval, pointing to low crime rates in areas under its protection as evidence of its effectiveness.
 
-Palisade's public image reflects its institutional identity: sleek, severe, and authoritative. Its visual branding uses silver and black with cyan accents, emphasizing precision, control, and strength.
 
 ## HISTORY
 
 Palisade's history in Eta began with its corporate war against **Plastigen**, the former Monolith controlling the Zone.
 
-Plastigen manufactured plastics using technology that had fallen behind newer materials and manufacturing techniques. Despite its environmentally destructive industry, it maintained relatively permissive laws and generally avoided interfering with private life. Eta developed a distinctive culture centered around nightlife, entertainment, recreational drugs, unusual fashion, and eccentric subcultures.
+Plastigen manufactured plastics using technology that had fallen behind newer materials and manufacturing techniques. Despite its environmentally destructive industry, it maintained relatively permissive laws and generally avoided interfering with private life. Eta developed a distinctive culture centered around nightlife, entertainment, recreational drugs, and unusual fashion.
 
-Approximately thirty years ago, Palisade defeated Plastigen and seized control of Eta. Plastigen was dissolved, and its employees were killed. Palisade concealed the killings and presented the takeover as the removal of problematic elements from the Zone.
+Approximately thirty years ago, Palisade defeated Plastigen and seized control of Eta. Plastigen was dissolved, and its employees were all burnt and killed. Palisade concealed the killings and presented the takeover as the removal of problematic elements from the Zone.
 
-Following the takeover, Palisade restructured Eta around its defense and security industries. Former Plastigen factories, warehouses, offices, utilities, and transportation facilities were repurposed, while other areas were demolished or rebuilt. The economic disruption caused widespread unemployment and displacement.
+Following the takeover, Palisade demolished and rebuilt parts of  Eta around its industries. It also expanded more into Tourism, opening **Paliland**, the largest amusement park in the world. 
 
-Resistance began within months. Protests, strikes, and civil disobedience escalated into an extended urban uprising known as the **Eta Revolt**. Palisade killed and imprisoned large numbers of people while suppressing the revolt. Although the major uprising eventually ended, resistance continued through smaller underground movements, some of which developed into smuggling networks, organized crime groups, and underground nightlife syndicates.
+Resistance began within months. Protests, strikes, and civil disobedience escalated into an extended urban uprising known as the **Etan Revolt**. Palisade killed and imprisoned large numbers of people while suppressing the revolt. Although the major uprising eventually ended, resistance continued through smaller underground movements, some of which developed into smuggling networks and nightlife syndicates.
 
-In the following decades, Palisade encouraged wealthy residents, skilled workers, and tourists to return to Eta. Redevelopment revitalized parts of the Zone but also raised living costs and displaced poorer residents. Security infrastructure became increasingly prominent, particularly in public spaces and entertainment districts.
-
-## STRUCTURE
-
-Palisade operates as both a defense manufacturer and a security provider. Its products and services are used by other Monoliths, corporations, and the Gavel, giving the company a presence throughout Zenith.
-
-Its operations include:
-
-- **Weapons and military equipment:** Manufacturing and supplying weapons and other defense products.
-- **Gavel supplies:** Producing police uniforms, equipment, and other law-enforcement supplies.
-- **Surveillance systems:** Manufacturing security cameras, monitoring equipment, and related technology.
-- **Alarms and communications:** Providing warning systems, security communications, and monitoring infrastructure.
-- **Security infrastructure:** Establishing and maintaining systems for public spaces, commercial districts, corporate facilities, and other controlled areas.
-
-Palisade also works directly with other organizations to develop and maintain their security systems. Its expertise makes it a valuable partner to companies and Monoliths that rely on external providers for their defense infrastructure.
+In the following decades, Palisade encouraged wealthy residents and tourists to return to Eta. Redevelopment revitalized parts of the Zone but also raised living costs and displaced poorer residents. 
 
 ## CULTURE
 
@@ -58,37 +43,25 @@ The company values results over public approval. Its position is that strict enf
 
 Working for Palisade is closely associated with the defense and security industries. Its employees may work in manufacturing, engineering, surveillance, communications, logistics, security infrastructure, or administrative roles. The company's broad network of contracts creates demand for both technical specialists and industrial workers.
 
-Palisade's branding reinforces its values. Silver and black designs, cyan accents, angular forms, and a stern visual presentation are used to convey precision, control, and authority.
+## WORKING FOR PALISADE
 
-## RELATIONSHIPS
+Working for Palisade is considered a stable career, particularly in security, research, and technical fields. Despite its strict reputation, the workplace can be surprisingly pleasant. Colleagues are generally friendly, and employees who do their jobs well can genuinely find satisfaction in their careers.
 
-### Other Monoliths
+Palisade's standards apply to everyone, including its leadership. Unlike some other Monoliths, senior staff are not necessarily exempt from consequences when they make mistakes or violate company rules. Rank carries authority, but it does not guarantee immunity. Employees are expected to meet the same standards of discipline and competence regardless of their position.
 
-Palisade maintains generally cooperative relationships with the other Monoliths. Its weapons, surveillance equipment, and security infrastructure are valuable to organizations responsible for protecting their own territories and operations.
+Palisade is demanding, but its expectations are clear and workers have reason to take pride in meeting them. The company's harsher side tends to emerge when someone challenges its authority or puts its objectives at risk.
 
-Other Monoliths may disagree with Palisade's methods or distrust its ideology, but its effectiveness gives them practical reasons to maintain their relationships with the company. Palisade is not universally trusted, yet its products and services are too useful for most Monoliths to disregard.
+## RUMORS
+Palisade's reputation for secrecy and excessive enforcement has inspired plenty of rumors, particularly in Eta. Most are difficult to verify, and the company rarely responds to speculation.
 
-### The Gavel
-
-Palisade manufactures and supplies equipment used by the Gavel, including uniforms, weapons, and other police supplies. Its products form part of the equipment used by law enforcement throughout Zenith.
-
-### The Public
-
-Public opinion of Palisade varies between Zones. Some people appreciate the effectiveness of its security systems and consider strict enforcement a necessary trade-off for public safety. Others distrust its brutality, extensive surveillance, and willingness to impose its own standards of acceptable behavior.
-
-Palisade justifies its methods by pointing to the low crime rates of areas under its protection. It portrays criminals as threats to ordinary people and argues that objections to strict enforcement place personal freedom above public safety.
-
-### Eta
-
-Palisade remains deeply unpopular among many Etans. The destruction of Plastigen, the killing of its employees, and the violent suppression of the Eta Revolt left a lasting legacy of resentment. Restrictions on nightlife and public behavior have further alienated residents who remember Eta's earlier culture.
-
-Elements of pre-Palisade Eta survive through fashion, music, nightlife, and underground venues. The slang term **Brightside**, a sarcastic reference to Palisade's sanitized image of the Zone, reflects local hostility toward the company's attempts to regulate and rebrand Eta.
+- **Children Behind the Walls**: Locals near certain Palisade facilities have reported seeing children entering heavily guarded buildings, despite no obvious connection to schools or childcare services. Palisade has offered no public explanation, and the stories remain difficult to confirm.
+- **A Different Kind of Soldier**: Rumors circulate among security contractors about operatives capable of doing things ordinary training cannot explain. Some attribute the stories to experimental equipment or embellished accounts of classified missions
+- **No Room for Defectors**: There are persistent stories of Palisade personnel who attempted to leave the company under unusual circumstances, only to have their records sealed or their departures quietly erased. Whether these cases involve ordinary security concerns or something more serious is unclear.
+- **The Next Stage**: Palisade has long promoted the idea that threats should be stopped before they can cause harm. Recently, some insiders have speculated that the company is developing ways to identify criminal intent itself, rather than simply tracking suspicious behavior. Whether this is a genuine program or corporate advertising remains unclear.
+- **Borrowed**: Other Monolith employees report their higher ups sometimes receiving specialized Palisade personnel for sensitive assignments. These operatives arrive with unusual restrictions and requirements, answer to handlers outside the borrowing organization, and leave little documentation behind. 
 
 ## NOTES
 
 - Palisade is the defense and security Monolith, supplying weapons, surveillance systems, police equipment, and security infrastructure throughout Zenith.
 - Its products are widely relied upon despite its reputation for brutality.
 - Eta was formerly controlled by Plastigen, a plastics manufacturer, before Palisade seized control approximately thirty years ago.
-- The Eta Revolt was a major uprising against Palisade's rule. Its suppression remains a source of local resentment.
-- Palisade's security philosophy prioritizes effective enforcement and the prevention of threats over public approval.
-- The company's silver, black, and cyan branding reflects its stern, authoritative image.

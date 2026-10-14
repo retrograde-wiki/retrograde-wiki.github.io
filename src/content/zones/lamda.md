@@ -132,23 +132,6 @@ The Zone's main residential areas, consisting primarily of comfortable mid-rise 
 - **Lamda Commercial Districts:** Shopping and dining areas containing restaurants, cafes, markets, boutiques, and other businesses.
 - **Lamda Chess Venues:** Clubs and competition venues used for local and inter-Zone chess events.
 
-## ECONOMY
-
-BioMedica is the dominant economic force in Lamda and one of its largest employers. The local economy centers on healthcare, medicine, research, corporate administration, professional services, tourism, retail, and elderly care.
-
-Working for BioMedica can provide significant advantages, including better access to housing and the Zone's high standard of living. The company employs people in medical, research, administrative, maintenance, and service roles.
-
-Independent businesses remain common alongside BioMedica-affiliated companies. Restaurants, cafes, shops, and services catering to professionals and retirees make up a significant part of the local economy.
-
-Despite its affluence, Lamda still has lower-income residents and service workers. Class differences remain present, even if they are less visually dramatic than in poorer Zones.
-
-## CRIME
-
-Crime in Lamda is relatively low, particularly violent crime. White-collar and corporate offenses, including fraud, bribery, and information theft, are more characteristic of the Zone.
-
-Organized crime and illicit Fixer activity exist but are uncommon. Incidents involving BioMedica occasionally occur, and some are alleged to have been quietly resolved.
-
-Lamda's sheltered reputation also makes its residents the subject of jokes about being easy targets for criminals from outside the Zone.
 
 ## CREATING A LAMDAN CHARACTER
 
