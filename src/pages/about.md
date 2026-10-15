@@ -2,74 +2,62 @@
 layout: layouts/lore.njk
 permalink: /about.html
 title: What is Retrograde?
-subtitle: Just the Basics.
+subtitle: A world run by corporations.
 ---
 
 <img src="/im/art/rho.png"> <br>
 
-**RETROGRADE** is a science-fiction setting, set nearly a thousand years after Earth was abandoned due to global warming. Eventually through their travels, humanity found a new home on Planet Zenith .
-
+**RETROGRADE** is a retro-futurist science-fiction world of walled cities, rival corporations, and the people caught between them.
 
 ## Welcome to Zenith!
 
-Zenith is divided into **24 Zones**, large protected territories where most of humanity lives. Between the Zones lies **the Pale**, a dangerous and largely uninhabitable region. 
+[intro unchanged]
 
-Zenith is highly advanced, but its design and everyday use often resemble older technology. Physical media, cartridges, specialized computers, and chunky personal devices remain common alongside highly advanced infrastructure.
+## The World
 
-*For more information on Zenith, check* [Zenith](/lore/zenith.html) 
+Zenith is an alien, Earth-like planet divided into 24 Zones. Each Zone belongs to a megacorporation called a Monolith, and each Monolith has total control over its territory. It writes the laws, and nothing happens inside its borders without its knowledge. Rebellion gets crushed quickly, because the status quo is the whole business.
 
-## The Monoliths
+Beyond the law, Monoliths run daily life: housing, employment, and education all go through them, and the best amenities are often reserved for employees and their families.
 
-Each Zone is controlled by one of **24 Monoliths**.
+A Monolith earns its place by dominating the market until its products are nearly impossible to live without, and by eliminating competitors by whatever means necessary. Replacing one is a monumental event that may happen only once a century.
 
-Monoliths are enormous corporations that also function as governments. They control the land, infrastructure, resources, and administration of their Zones.
+Together, the 24 Monoliths form the Conglomerate, a collective authority that handles matters affecting Zenith as a whole. Its members fight constantly, but none can survive without the others, and that tension is felt across the planet.
 
-Though not elected, and each Monolith is ruled by its own leadership.
+## Daily Life
 
-The Monoliths compete with one another, but they also depend heavily on one another. Together, they form **The Conglomerate**, the collective government in a shaky alliance, responsible for matters affecting all of Zenith.
+Most people on Zenith live ordinary lives. They go to work, raise families, and keep up their hobbies. The difference is how much money decides what's possible. The universal currency is the Unit, which comes in paper, token, and digital forms.
 
-*For a list of Monoliths check [Monoliths](/monoliths.html) * 
+Wealth shapes everything about your life. The rich get spacious houses and penthouses, while the poor might live in an apartment the size of a closet. Even basics like food, water, and healthcare range from extravagant to nonexistent depending on what you can pay.
 
-## Life on Zenith
+Law is enforced by the Gavel, an institute shared by the Conglomerate that polices every Zone. It is badly understaffed and widely seen as corrupt and incompetent.
 
-Most people live relatively ordinary lives.
-
-They go to school, work, shop, eat, travel, use the internet, and live in cities much like people have for centuries.
-
-Life, however, varies greatly depending on where someone lives and how much money they have. Wealthier people have access to better housing, food, education, healthcare, and employment, while poorer people may live in overcrowded areas with fewer opportunities.
-
+For those at the very bottom, with nothing to their name and no way to provide for themselves, there is exile. They can be forced out into the Pale, the uninhabitable land outside the Zones, and many don't survive it.
 
 ## Fixers
 
-**Fixers** are independent contractors who provide **specialized services** to private individuals, organizations, and Corporations. Unlike boring corpo employees, **Fixers** are (generally) self-employed and are hired on a job by job basis to solve problems that a client cannot or doesn't want to handle themselves. 
+Not everyone wants to spend their life working for a corporation. Some can't get hired in the first place. Others would rather take their chances working for themselves.
 
-A Fixer's work may be entirely legal, highly illegal, or somewhere in between depending on the client, zone, and circumstances.
+Fixers are independent contractors who take jobs from people, businesses, and organizations. The work varies wildly. One day you might be tracking down a missing person; the next, smuggling cargo through the Pale, sabotaging a rival company, or helping someone with a problem they'd rather keep quiet.
 
-Fixer groups are called Networks. Your first Retrograde character will likely belong to a Fixer group known as The Enclave . This is to help your character connect with others, get jobs, money, and other opportunities. 
+It isn't a stable career. Jobs are dangerous, clients are unreliable, and getting paid is never guaranteed. Some Fixers specialize, while others take whatever comes their way.
+
+Fixers can work alone or join a Network, a group that connects contractors, shares resources, and organizes jobs. Networks vary in size, influence, and reputation. Some operate openly, some work in the shadows, and plenty fall somewhere in between.
+
+It's not an easy way to make a living, but at least nobody gets to call you into the office on your day off. Probably.
 
 ## Signatures
 
-Very rarely, a person may be chosen by a **Signature**.
+Signatures are extraordinarily rare, anomalous weapons made from the cores of powerful, extinct creatures known as "Moon children." They were created early in Zenith's history and used in the Great War, where many were lost and scattered across the planet. Finding one is about as likely as winning the lottery, if not less.
 
-Signatures are extraordinarily powerful anomalous weapons that bind themselves to a specific person. They cannot simply be picked up and used by someone else.
+Some believe they are still awake. A Signature will not let anyone use it except its chosen wielder, known as a Signer, and no two are alike. Each has its own abilities, appearance, and personality, and learning to use one takes time.
 
-A Signature grants its wielder unusual abilities, making its users exceptionally powerful and often dangerous.
+Signers are in demand. Monoliths and Fixers seek them out for their power, and thieves hunt them for their weapons, so many keep their Signature secret.
 
-Very little is known about where Signatures came from or why they choose the people they do.
-*For more information, refer to [Signatures](/lore/signatures.html)* 
+## Where to Start
 
-## Project Identity
+Zenith is a big place with a lot of secrets. Pick a topic on the header, or check out one of these:
 
-Despite its themes, Retrograde is not cyberpunk. Instead, Retrograde has a distinct Cassette Futurist aesthetic. Its technology is advanced, but it often looks and feels like an imagined future from decades ago.
-
-As a project, it is intended to feel **Bizarre, Colorful, Brutalist, “Street,” Corporate, and Darkly Comedic**.
-
-
-## Okay, but what is Retrograde actually *about?*
-
-There is no single dominant story taking place in Zenith. It is a world designed to contain many different stories, characters, and places.
-
-All in all, It can be about whatever you make it to be. 
-
-But if you want more of an answer, its about people learning to thrive in a world where every aspect of reality wants you dead.
+- [Lore](/lore.html): Everything about the setting.
+- [The Monoliths](/monoliths.html): The Megacoporations and what they do.
+- [The Zones](/zones.html): The various places to visit.
 
