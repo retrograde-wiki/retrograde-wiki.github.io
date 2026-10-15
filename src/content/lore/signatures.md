@@ -32,18 +32,6 @@ Every Signature has its own unique ability or set of related abilities. A Signer
 
 No two Signatures are necessarily alike, and their abilities can vary dramatically.
 
-## DISTORTIONS
-
-A **Distortion** occurs when the bond between a Signer and their Signature becomes severely destabilized. This can happen while a Signer is alive, usually during extreme emotional distress. 
-
-As the process begins, the Signature begins to merge with its Signer, gradually taking control of their body and actions. Early stages can sometimes be reversed, but advanced Distortions are increasingly difficult to recover from- Akin to a Mutation or Infection, Also rendering the original signature malformed and unstable to use. Yet, theorized to be more powerful.
-
-Death can also result in a Distortion under certain circumstances. A Signer who dies peacefully, such as from illness or old age, will generally leave their Signature unbound, allowing it to eventually choose another compatible person.
-
-Violent death or death accompanied by intense unresolved attachment may instead cause the Signature to attempt to preserve its bond. In these cases, a complete Distortion may form.
-
-A complete Distortion is no longer the original signer, and its final appearance will often resemble the Moon Child's former self.
-
 ## SIGNERS
 
 There are very few active Signers across Zenith. 

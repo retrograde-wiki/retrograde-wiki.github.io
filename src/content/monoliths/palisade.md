@@ -6,7 +6,7 @@ industry: Defense, Security, Surveillance
 description: The Monolith responsible for defense manufacturing and security infrastructure across Zenith.
 arc: cyan
 logo: /im/logos/company/palisade.png
-image: /im/art/monoliths/palisade.svg
+image: /im/placeholder.png
 updated: "10/09/26"
 toc: true
 hidden: false

@@ -42,9 +42,6 @@ Cars and buses are available, but walking is a common way to get around. Public 
 
 ## HISTORY
 
-<div class="callout">
-This section is not required reading, and is mainly here for those curious.
-</div>
 
 Lamda was once a relatively ordinary green region whose economy relied heavily on agriculture, particularly vegetable production. Its former Monolith, Greenthumb, specialized in growing and distributing vegetables, but gradually lost ground as Harvestons production displaced traditional agricultural supply chains.
 
