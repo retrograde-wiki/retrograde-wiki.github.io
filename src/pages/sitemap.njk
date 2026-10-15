@@ -46,7 +46,7 @@ eleventyExcludeFromCollections: true
         <ul>
           {% for item in collections.zones | sort(attribute="data.name") %}
             {% if item.url and not item.data.hidden %}
-            <li><a href="{{ item.url }}">{{ item.data.name }}</a></li>
+            <li><a href="{{ item.url }}">{{ item.data.name or item.data.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>

@@ -1,6 +1,6 @@
 # UPDATE RECIEVER
 <hr><br>
 
-## 09/10/26
+## 09/14/26
 
 * The Site Launches!

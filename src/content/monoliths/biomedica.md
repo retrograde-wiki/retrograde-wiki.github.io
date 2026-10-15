@@ -60,6 +60,6 @@ BioMedica has a good reputation, and most people have little reason to question 
 - **The Research Wing**: Former low-level employees occasionally allude to research divisions with rules far stricter than the rest of the company. Some claim even senior staff aren't told what their colleagues are working on.
 - **The Fine Print**: BioMedica's healthcare contracts are extrodinarily long and complex, some say containing containing clauses that most customers never notice or understand until it's too late. Nobody seems to agree on what those clauses actually permit
 
-## TRIVIA
+## NOTES
 
 - Healing Foam is one of its best-known medical products and is commonly used by Fixers.
